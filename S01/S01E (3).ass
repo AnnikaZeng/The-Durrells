@@ -1,0 +1,668 @@
+﻿[Script Info]
+Collisions: Reverse
+Original Editing: 
+Original Script: ShinY
+Original Timing: 
+Original Translation: 
+PlayResX: 1280
+PlayResY: 720
+ScaledBorderAndShadow: no
+Script Updated By: 
+ScriptType: v4.00+
+Synch Point: 
+Timer: 100.0000
+Title: 深影字幕组
+Update Details: 
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正黑体_GBK,50,&H00FFFFFF,&HF0000000,&H00000000,&H32000000,0,0,0,0,100,100,0,0.00,1,5,2.5,2,13,13,38,1
+Style: 片头,方正兰亭特黑长_GBK,88,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,10,10,10,1
+Style: 注释,FZLanTingHei-R-GBK,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,8,10,10,15,1
+Style: 译文字幕,方正黑体_GBK,50,&H00FFFFFF,&HF0000000,&H00000000,&H32000000,0,0,0,0,100,100,0,0.00,1,5,2.5,2,13,13,38,1
+Style: 原文字幕,微软雅黑,35,&H00FFFFFF,&HF0000000,&H00H202020,&H32000000,0,0,0,0,100,100,0,0.00,1,5,2.5,2,13,13,38,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:03:31.39,0:03:35.65,片头,,0,0,0,,德雷尔一家 第一季 第三集\N{\r片头}
+Dialogue: 0,0:15:44.61,0:15:47.49,注释,,0,0,0,,现代护理学创立人\N{\r注释}
+Dialogue: 0,0:25:20.07,0:25:24.05,注释,,0,0,0,,英国小说家 戏剧家\N{\r注释}
+Dialogue: 0,0:31:46.81,0:31:49.52,注释,,0,0,0,,英国著名侦探小说家\N{\r注释}
+Dialogue: 0,0:31:49.81,0:31:51.26,注释,,0,0,0,,阿加莎笔下一名女侦探 马普尔小姐（Marple） 此处是马戈用自己的名字和其名字拼接而取的名字\N{\r注释}
+Dialogue: 0,0:00:17.09,0:00:19.49,译文字幕,,0,0,0,,一切都还好吗\N{\r原文字幕}It's all going on, isn't it?
+Dialogue: 0,0:00:19.81,0:00:21.13,译文字幕,,0,0,0,,西奥去哪了\N{\r原文字幕}Where's Theo?
+Dialogue: 0,0:00:21.16,0:00:23.98,译文字幕,,0,0,0,,去参加了个关于软体动物的会议\N{\r原文字幕}Away at a conference... about molluscs.
+Dialogue: 0,0:00:25.07,0:00:26.98,译文字幕,,0,0,0,,都没人和我一起去收集屎壳郎了\N{\r原文字幕}No-one else will collect dung beetles with me.
+Dialogue: 0,0:00:27.01,0:00:28.61,译文字幕,,0,0,0,,那倒不奇怪 对吧\N{\r原文字幕}That's hardly surprising, isn't it?
+Dialogue: 0,0:00:28.63,0:00:30.19,译文字幕,,0,0,0,,他们就是粪便做成的虫子\N{\r原文字幕}I mean they're beetles made of dung.
+Dialogue: 0,0:00:30.21,0:00:32.16,译文字幕,,0,0,0,,它们不是由粪便做的 而是靠这个活\N{\r原文字幕}They're not made of dung. They live on dung.
+Dialogue: 0,0:00:32.21,0:00:34.92,译文字幕,,0,0,0,,它们把粪便分开后 滚成球\N{\r原文字幕}They cut it, then they roll it
+Dialogue: 0,0:00:35.98,0:00:37.83,译文字幕,,0,0,0,,然后埋起来\N{\r原文字幕}and they bury it.
+Dialogue: 0,0:00:38.69,0:00:40.63,译文字幕,,0,0,0,,要是你爸爸在这里就好了\N{\r原文字幕}If only your father were here.
+Dialogue: 0,0:00:40.91,0:00:43.76,译文字幕,,0,0,0,,- 他对大自然感兴趣么 - 不\N{\r原文字幕}- Was he interested in nature? - No.
+Dialogue: 0,0:00:46.04,0:00:47.66,译文字幕,,0,0,0,,你为什么不去钓鱼呢\N{\r原文字幕}Why don't you go fishing?
+Dialogue: 0,0:00:47.69,0:00:49.86,译文字幕,,0,0,0,,老实说 这样我们就可以吃鱼了\N{\r原文字幕}To be honest, we could do with the fish.
+Dialogue: 0,0:00:51.62,0:00:53.56,译文字幕,,0,0,0,,好了 好了 谢谢你们送我回家\N{\r原文字幕}Yeah, yeah. Thanks for walking me home.
+Dialogue: 0,0:00:55.28,0:00:57.94,译文字幕,,0,0,0,,你们太贴心了 但是我要结婚了\N{\r原文字幕}You're so sweet but I'm getting married.
+Dialogue: 0,0:00:57.99,0:01:01.12,译文字幕,,0,0,0,,我妈妈撮合的 我未婚夫在船厂工作\N{\r原文字幕}My mother's making me. He's in shipping.
+Dialogue: 0,0:01:01.22,0:01:03.03,译文字幕,,0,0,0,,干得不错\N{\r原文字幕}Well done.
+Dialogue: 0,0:01:03.08,0:01:04.17,译文字幕,,0,0,0,,自那上一个后\N{\r原文字幕}I couldn't take any more
+Dialogue: 0,0:01:04.17,0:01:06.13,译文字幕,,0,0,0,,我再也不能忍受你恋爱的烦恼了\N{\r原文字幕}of your romantic upsets after the last one.
+Dialogue: 0,0:01:06.14,0:01:09.87,译文字幕,,0,0,0,,不 我还在找呢 我就是不喜欢他们\N{\r原文字幕}Oh, no, I'm still looking. I just don't really fancy them.
+Dialogue: 0,0:01:10.07,0:01:11.25,译文字幕,,0,0,0,,我应该去港口看看\N{\r原文字幕}I might try the harbour.
+Dialogue: 0,0:01:11.25,0:01:12.54,译文字幕,,0,0,0,,马戈 你该去找个工作\N{\r原文字幕}Margo, you need a job.
+Dialogue: 0,0:01:12.59,0:01:14.51,译文字幕,,0,0,0,,为什么是我 拉里和莱斯利呢\N{\r原文字幕}Why me? What about Larry and Leslie?
+Dialogue: 0,0:01:14.54,0:01:16.28,译文字幕,,0,0,0,,我有工作\N{\r原文字幕}I have a job!
+Dialogue: 0,0:01:18.10,0:01:19.60,译文字幕,,0,0,0,,那可不是工作\N{\r原文字幕}It's not a job.
+Dialogue: 0,0:01:19.79,0:01:21.89,译文字幕,,0,0,0,,- 就是装样子 - 闭嘴 莱斯利\N{\r原文字幕}- It's showing off. - Shut up, Leslie!
+Dialogue: 0,0:01:23.94,0:01:27.08,译文字幕,,0,0,0,,她快结婚了 未婚夫在船厂工作\N{\r原文字幕}She's getting married. Someone in shipping.
+Dialogue: 0,0:01:28.14,0:01:29.83,译文字幕,,0,0,0,,你觉得这不是工作吗\N{\r原文字幕}You don't think this is work?
+Dialogue: 0,0:01:29.87,0:01:33.23,译文字幕,,0,0,0,,六个月的血和汗还有...\N{\r原文字幕}This is six months of blood and sweat and...
+Dialogue: 0,0:01:34.69,0:01:36.50,译文字幕,,0,0,0,,其他液体我就不说了\N{\r原文字幕}other fluids I won't go into.
+Dialogue: 0,0:01:36.50,0:01:38.14,译文字幕,,0,0,0,,是的 我知道 干得好 亲爱的\N{\r原文字幕}Yes, I know. Well done, dear.
+Dialogue: 0,0:01:38.20,0:01:40.75,译文字幕,,0,0,0,,粗糙的双手搭成帐篷形 做着礼拜\N{\r原文字幕}Gnarled were the hands, tented in worship.
+Dialogue: 0,0:01:40.76,0:01:44.63,译文字幕,,0,0,0,,湿透的衣服紧贴着她 就像灰白棚架上的苔藓\N{\r原文字幕}The sodden coat clumped round her like moss on grizzled trellis.
+Dialogue: 0,0:01:44.65,0:01:47.57,译文字幕,,0,0,0,,写得真好 但别给我说内容了\N{\r原文字幕}Oh, is lovely, darling. Don't spoil it for me though.
+Dialogue: 0,0:01:48.34,0:01:49.89,译文字幕,,0,0,0,,太好了 有吃的\N{\r原文字幕}Thank God, food.
+Dialogue: 0,0:01:49.92,0:01:51.84,译文字幕,,0,0,0,,不 这个是给亚历克西娅的\N{\r原文字幕}Uh-uh. It's for Alexia.
+Dialogue: 0,0:01:52.00,0:01:53.64,译文字幕,,0,0,0,,是给我们两个月纪念日准备的\N{\r原文字幕}It's our two-month anniversary.
+Dialogue: 0,0:01:53.89,0:01:55.63,译文字幕,,0,0,0,,贴心的男孩\N{\r原文字幕}Oh, sweet boy.
+Dialogue: 0,0:01:55.83,0:01:57.43,译文字幕,,0,0,0,,他是最好的孩子\N{\r原文字幕}He is best child.
+Dialogue: 0,0:01:57.78,0:01:59.10,译文字幕,,0,0,0,,在英格兰\N{\r原文字幕}You see, back in England,
+Dialogue: 0,0:01:59.11,0:02:01.64,译文字幕,,0,0,0,,我们对待孩子都尽量公平 鲁格勒斯雅\N{\r原文字幕}we try not to have favourites, Lugaretzia.
+Dialogue: 0,0:02:02.19,0:02:04.24,译文字幕,,0,0,0,,他是最好的孩子\N{\r原文字幕}He is best child.
+Dialogue: 0,0:02:04.74,0:02:06.51,译文字幕,,0,0,0,,但是这对他来说是好事\N{\r原文字幕}But it is nice for him.
+Dialogue: 0,0:02:06.90,0:02:10.00,译文字幕,,0,0,0,,我们都需要爱 他有亚历克西娅了\N{\r原文字幕}We all need love. He has Alexia.
+Dialogue: 0,0:02:10.35,0:02:12.77,译文字幕,,0,0,0,,拉里 在英格兰你有南希\N{\r原文字幕}Larry, you have Nancy back in England.
+Dialogue: 0,0:02:13.27,0:02:15.67,译文字幕,,0,0,0,,- 那你有... - 好吧 拉里\N{\r原文字幕}- And you have...? - All right, Larry.
+Dialogue: 0,0:02:15.71,0:02:16.99,译文字幕,,0,0,0,,我知道你想说什么\N{\r原文字幕}I know what you're going to say.
+Dialogue: 0,0:02:17.02,0:02:19.15,译文字幕,,0,0,0,,谢谢 我能照顾我自己\N{\r原文字幕}Thank you, I can look after myself.
+Dialogue: 0,0:02:23.84,0:02:25.20,译文字幕,,0,0,0,,给亚历克西娅的\N{\r原文字幕}For Alexia.
+Dialogue: 0,0:03:53.27,0:03:56.28,译文字幕,,0,0,0,,来啊 做点什么\N{\r原文字幕}Go on, then. Do something.
+Dialogue: 0,0:04:10.21,0:04:11.70,译文字幕,,0,0,0,,你好 德雷尔小姐\N{\r原文字幕}Hello, Miss Durrells.
+Dialogue: 0,0:04:15.16,0:04:16.82,译文字幕,,0,0,0,,你好 斯皮罗斯\N{\r原文字幕}Hello, Spiro.
+Dialogue: 0,0:04:18.73,0:04:22.54,译文字幕,,0,0,0,,- 你想搭车吗 - 不 我没事 谢谢你\N{\r原文字幕}- You want a lift? - No, no, I'm fine, thank you.
+Dialogue: 0,0:04:23.03,0:04:25.73,译文字幕,,0,0,0,,- 上车吧 - 不不不 我没事\N{\r原文字幕}- I'll give you a lift. - No, no. No, I'm fine.
+Dialogue: 0,0:04:25.76,0:04:27.17,译文字幕,,0,0,0,,不 上车吧\N{\r原文字幕}No, I'll give you a lift.
+Dialogue: 0,0:04:41.62,0:04:42.95,译文字幕,,0,0,0,,好极了\N{\r原文字幕}Bravo!
+Dialogue: 0,0:04:47.48,0:04:48.70,译文字幕,,0,0,0,,你好\N{\r原文字幕}Hello.
+Dialogue: 0,0:04:50.13,0:04:51.58,译文字幕,,0,0,0,,英国人\N{\r原文字幕}English?
+Dialogue: 0,0:04:52.45,0:04:54.33,译文字幕,,0,0,0,,是的 我叫格里\N{\r原文字幕}Yes. Gerry.
+Dialogue: 0,0:04:56.80,0:04:58.16,译文字幕,,0,0,0,,克斯提\N{\r原文字幕}Kostis.
+Dialogue: 0,0:05:06.34,0:05:07.82,译文字幕,,0,0,0,,你为什么要躲着我\N{\r原文字幕}Why were you hiding from me?
+Dialogue: 0,0:05:07.91,0:05:10.88,译文字幕,,0,0,0,,没有 我只是... 躲太阳\N{\r原文字幕}No, I was just... getting some shade.
+Dialogue: 0,0:05:10.93,0:05:12.87,译文字幕,,0,0,0,,不 你在躲我\N{\r原文字幕}No, you were hiding.
+Dialogue: 0,0:05:14.04,0:05:15.19,译文字幕,,0,0,0,,你要去哪里\N{\r原文字幕}Where you going?
+Dialogue: 0,0:05:15.42,0:05:17.90,译文字幕,,0,0,0,,麻烦进城就行 斯皮罗斯\N{\r原文字幕}Um, just into town, please, Spiro.
+Dialogue: 0,0:05:18.29,0:05:20.12,译文字幕,,0,0,0,,说吧 你要去哪里\N{\r原文字幕}Come on, where you going?
+Dialogue: 0,0:05:20.90,0:05:22.63,译文字幕,,0,0,0,,去斯文那里\N{\r原文字幕}To Sven's house.
+Dialogue: 0,0:05:26.30,0:05:29.40,译文字幕,,0,0,0,,- 你为什么要去那里 - 去问他个问题\N{\r原文字幕}- Why you going there? - To ask him a question.
+Dialogue: 0,0:05:29.78,0:05:31.99,译文字幕,,0,0,0,,问我啊 我是万事通\N{\r原文字幕}Ask me. I know everything.
+Dialogue: 0,0:05:33.12,0:05:36.08,译文字幕,,0,0,0,,- 他是瑞典人 - 他救了拉里一命\N{\r原文字幕}- He's a Swede. - He saved Larry's life.
+Dialogue: 0,0:05:36.52,0:05:39.11,译文字幕,,0,0,0,,再说 瑞典人又怎么了\N{\r原文字幕}What's the matter with the Swedes, anyway?
+Dialogue: 0,0:05:40.68,0:05:42.11,译文字幕,,0,0,0,,太懒了 连个像英国和\N{\r原文字幕}Too lazy to make an empire
+Dialogue: 0,0:05:42.11,0:05:45.32,译文字幕,,0,0,0,,希腊一样的国家都建不成\N{\r原文字幕}like the British and the Greeks. Much too lazy.
+Dialogue: 0,0:05:56.90,0:05:58.22,译文字幕,,0,0,0,,鹭\N{\r原文字幕}Erodios.
+Dialogue: 0,0:05:58.75,0:06:00.07,译文字幕,,0,0,0,,白鹭\N{\r原文字幕}Egret.
+Dialogue: 0,0:06:23.85,0:06:25.34,译文字幕,,0,0,0,,你好 斯文\N{\r原文字幕}Hello, Sven.
+Dialogue: 0,0:06:25.84,0:06:27.15,译文字幕,,0,0,0,,路易莎\N{\r原文字幕}Louisa.
+Dialogue: 0,0:06:28.60,0:06:32.42,译文字幕,,0,0,0,,关于昨天要付拉里的手术费 我想道个歉\N{\r原文字幕}I wanted to apologise for offering to pay for Larry's operation.
+Dialogue: 0,0:06:33.09,0:06:34.53,译文字幕,,0,0,0,,英国人都很绅士\N{\r原文字幕}You were just being British.
+Dialogue: 0,0:06:34.84,0:06:36.96,译文字幕,,0,0,0,,你们不喜欢欠别人人情\N{\r原文字幕}You don't like being in anyone's debt.
+Dialogue: 0,0:06:38.01,0:06:40.15,译文字幕,,0,0,0,,难道和你们瑞典人差这么多吗\N{\r原文字幕}Are you so different in Sweden?
+Dialogue: 0,0:06:40.68,0:06:44.03,译文字幕,,0,0,0,,我不知道 可我每年都少点瑞典人气息\N{\r原文字幕}I don't know. I'm getting less Swedish every year.
+Dialogue: 0,0:06:44.88,0:06:47.68,译文字幕,,0,0,0,,可能降到38%了吧\N{\r原文字幕}I think I'm down to 38%.
+Dialogue: 0,0:06:48.89,0:06:51.41,译文字幕,,0,0,0,,但是我喜欢希腊人 他们诚实\N{\r原文字幕}But I like the Greeks, their honesty.
+Dialogue: 0,0:06:51.53,0:06:54.35,译文字幕,,0,0,0,,我倒想沾点希腊人的气息\N{\r原文字幕}Mm. I wouldn't mind a bit of Greek in me.
+Dialogue: 0,0:06:56.50,0:06:58.14,译文字幕,,0,0,0,,别弹了\N{\r原文字幕}Oh, stop it.
+Dialogue: 0,0:07:02.65,0:07:04.74,译文字幕,,0,0,0,,你喜欢手风琴吗\N{\r原文字幕}Do you like the accordion?
+Dialogue: 0,0:07:05.27,0:07:08.64,译文字幕,,0,0,0,,不怎么喜欢\N{\r原文字幕}Um, no, not really.
+Dialogue: 0,0:07:12.85,0:07:14.49,译文字幕,,0,0,0,,现在不怎么喜欢诚实了吧\N{\r原文字幕}Not so fond of honesty now?
+Dialogue: 0,0:07:14.70,0:07:17.56,译文字幕,,0,0,0,,- 每个人都喜欢手风琴 - 好吧...\N{\r原文字幕}- Everybody likes the accordion. - Well...
+Dialogue: 0,0:07:18.22,0:07:20.04,译文字幕,,0,0,0,,我想问问你\N{\r原文字幕}Um, I was wondering if
+Dialogue: 0,0:07:20.07,0:07:22.22,译文字幕,,0,0,0,,知不知道怎么收橄榄的事情\N{\r原文字幕}you knew anything about olive harvesting...
+Dialogue: 0,0:07:22.25,0:07:24.45,译文字幕,,0,0,0,,你到底不喜欢手风琴什么地方\N{\r原文字幕}What exactly is it you don't like?
+Dialogue: 0,0:07:25.01,0:07:26.66,译文字幕,,0,0,0,,我...\N{\r原文字幕}Mm. I...
+Dialogue: 0,0:07:26.94,0:07:29.87,译文字幕,,0,0,0,,音色 这个看起来像...\N{\r原文字幕}The sound, the way it looks like a little...
+Dialogue: 0,0:07:30.16,0:07:32.00,译文字幕,,0,0,0,,给侏儒拉的钢琴 我...\N{\r原文字幕}piano for dwarves. I...
+Dialogue: 0,0:07:32.05,0:07:34.34,译文字幕,,0,0,0,,那你更喜欢布祖基琴吗\N{\r原文字幕}You prefer the bouzouki,
+Dialogue: 0,0:07:34.64,0:07:37.88,译文字幕,,0,0,0,,那种看上去给傻子弹的小竖琴\N{\r原文字幕}which is like a tiny harp for... idiots?
+Dialogue: 0,0:07:50.74,0:07:52.60,译文字幕,,0,0,0,,我有一些动物\N{\r原文字幕}I have some animals.
+Dialogue: 0,0:07:53.05,0:07:56.29,译文字幕,,0,0,0,,我喜欢动物 还有... 他们需要喂养\N{\r原文字幕}I like animals and... they need feeding...
+Dialogue: 0,0:07:57.19,0:08:00.80,译文字幕,,0,0,0,,- 所以我得回家了 - 过来\N{\r原文字幕}- so I have to go home now. - Come. Ela.
+Dialogue: 0,0:08:01.47,0:08:03.00,译文字幕,,0,0,0,,好吧\N{\r原文字幕}Oh, dear.
+Dialogue: 0,0:08:14.42,0:08:16.97,译文字幕,,0,0,0,,你想和阿勒克罗打个招呼吗\N{\r原文字幕}You want to say hello to Alecko?
+Dialogue: 0,0:08:25.17,0:08:26.80,译文字幕,,0,0,0,,什么情况\N{\r原文字幕}What's going on?
+Dialogue: 0,0:08:27.86,0:08:29.34,译文字幕,,0,0,0,,这是谁\N{\r原文字幕}Who's this?
+Dialogue: 0,0:08:29.77,0:08:31.93,译文字幕,,0,0,0,,- 斯特拉托斯 - 你好啊\N{\r原文字幕}- Stratos. - Yassas.
+Dialogue: 0,0:08:33.07,0:08:35.14,译文字幕,,0,0,0,,他是我以前的男朋友\N{\r原文字幕}He is my old boyfriend.
+Dialogue: 0,0:08:35.48,0:08:36.65,译文字幕,,0,0,0,,然后呢\N{\r原文字幕}All right.
+Dialogue: 0,0:08:36.99,0:08:38.87,译文字幕,,0,0,0,,和我的新男朋友\N{\r原文字幕}And my new boyfriend.
+Dialogue: 0,0:08:42.42,0:08:44.45,译文字幕,,0,0,0,,你的自行车真娘\N{\r原文字幕}Your bicycle is for a girl.
+Dialogue: 0,0:08:46.05,0:08:49.20,译文字幕,,0,0,0,,这个是给亚历克西娅的礼物\N{\r原文字幕}It's a present... for Alexia.
+Dialogue: 0,0:08:49.25,0:08:51.81,译文字幕,,0,0,0,,不 你不能给她了\N{\r原文字幕}No, you cannot give it to her.
+Dialogue: 0,0:08:51.83,0:08:54.04,译文字幕,,0,0,0,,那好啊 我会为她和你打一场\N{\r原文字幕}All right then, I'll fight you for her.
+Dialogue: 0,0:08:55.81,0:08:58.42,译文字幕,,0,0,0,,你看 亚历克西娅不想这样\N{\r原文字幕}You see, Alexia doesn't want that.
+Dialogue: 0,0:08:58.78,0:09:00.96,译文字幕,,0,0,0,,可以啊 如果你想打的话\N{\r原文字幕}Well, OK, if you want.
+Dialogue: 0,0:09:01.01,0:09:02.44,译文字幕,,0,0,0,,不 我不...\N{\r原文字幕}No, I don't...
+Dialogue: 0,0:09:05.31,0:09:08.01,译文字幕,,0,0,0,,好吧 好吧 我们来决斗\N{\r原文字幕}Fine. Fine, let's have a duel.
+Dialogue: 0,0:09:08.10,0:09:10.81,译文字幕,,0,0,0,,- 什么珍珠 - 用枪决斗\N{\r原文字幕}- A jewel? - A duel, with guns.
+Dialogue: 0,0:09:12.81,0:09:16.61,译文字幕,,0,0,0,,- 那太危险了 - 危险且愚蠢\N{\r原文字幕}- That's dangerous. - Dangerous. And silly.
+Dialogue: 0,0:09:17.42,0:09:20.22,译文字幕,,0,0,0,,走吧 走\N{\r原文字幕}Go away. Go!
+Dialogue: 0,0:09:40.35,0:09:42.22,译文字幕,,0,0,0,,不\N{\r原文字幕}Oh, no.
+Dialogue: 0,0:09:43.13,0:09:44.14,译文字幕,,0,0,0,,亲爱的 怎么了\N{\r原文字幕}Darling, what's the matter?
+Dialogue: 0,0:09:44.16,0:09:45.91,译文字幕,,0,0,0,,我和亚历克西娅分手了\N{\r原文字幕}I had to end it with Alexia.
+Dialogue: 0,0:10:02.51,0:10:05.17,译文字幕,,0,0,0,,莱斯利 对不起\N{\r原文字幕}Oh. Leslie, I'm so sorry.
+Dialogue: 0,0:10:05.20,0:10:07.24,译文字幕,,0,0,0,,她以前的男朋友回来了\N{\r原文字幕}Her old boyfriend came back.
+Dialogue: 0,0:10:07.29,0:10:09.77,译文字幕,,0,0,0,,- 这太让人心烦了 - 我讨厌她\N{\r原文字幕}- It's so upsetting. - I hate her.
+Dialogue: 0,0:10:09.80,0:10:11.54,译文字幕,,0,0,0,,别这样\N{\r原文字幕}Well, don't.
+Dialogue: 0,0:10:12.13,0:10:14.42,译文字幕,,0,0,0,,- 是挺讨厌的 - 她是...\N{\r原文字幕}- Actually do. - She was...
+Dialogue: 0,0:10:15.05,0:10:17.91,译文字幕,,0,0,0,,- 我知道我什么都做不好 - 不会啊\N{\r原文字幕}- I know I'm not good at anything. - You are.
+Dialogue: 0,0:10:17.93,0:10:19.37,译文字幕,,0,0,0,,我不好 我不像拉里那么聪明\N{\r原文字幕}I'm not. I'm not clever like Larry
+Dialogue: 0,0:10:19.41,0:10:20.79,译文字幕,,0,0,0,,像格里那么有魅力 或者...\N{\r原文字幕}or charming like Gerry or...
+Dialogue: 0,0:10:20.81,0:10:22.32,译文字幕,,0,0,0,,不管马戈有什么好的 我都差\N{\r原文字幕}whatever Margo is.
+Dialogue: 0,0:10:22.36,0:10:25.42,译文字幕,,0,0,0,,- 她... - 除了枪以外\N{\r原文字幕}- Well, she's... - Apart from my guns,
+Dialogue: 0,0:10:26.31,0:10:29.22,译文字幕,,0,0,0,,她是我遇见过的最美好之物\N{\r原文字幕}she was the first good thing that ever happened to me.
+Dialogue: 0,0:10:29.50,0:10:31.30,译文字幕,,0,0,0,,还有你的家庭呢\N{\r原文字幕}Well, there's your family.
+Dialogue: 0,0:10:31.35,0:10:34.43,译文字幕,,0,0,0,,看看这个 我哭都哭不好\N{\r原文字幕}Look at this. I can't even cry nicely.
+Dialogue: 0,0:10:40.98,0:10:44.36,译文字幕,,0,0,0,,他好漂亮 对吧 阿勒克罗\N{\r原文字幕}He's beautiful. Aren't you, Alecko?
+Dialogue: 0,0:10:49.02,0:10:51.00,译文字幕,,0,0,0,,- 漂亮 - 送你了\N{\r原文字幕}- You are. - For you.
+Dialogue: 0,0:10:51.48,0:10:53.93,译文字幕,,0,0,0,,- 你带他走吧 - 真的吗\N{\r原文字幕}- You take him. - Really?
+Dialogue: 0,0:10:55.18,0:10:56.96,译文字幕,,0,0,0,,你的... 家里人...\N{\r原文字幕}And your er... family...
+Dialogue: 0,0:10:57.88,0:10:59.64,译文字幕,,0,0,0,,会喜欢他吗\N{\r原文字幕}will like him?
+Dialogue: 0,0:11:01.17,0:11:04.05,译文字幕,,0,0,0,,家庭... 就像...\N{\r原文字幕}Family... is like er...
+Dialogue: 0,0:11:04.63,0:11:06.16,译文字幕,,0,0,0,,健康一样\N{\r原文字幕}good health.
+Dialogue: 0,0:11:07.35,0:11:11.27,译文字幕,,0,0,0,,只当你丢失了才会挂念\N{\r原文字幕}You miss it only when it is gone.
+Dialogue: 0,0:11:17.69,0:11:19.23,译文字幕,,0,0,0,,你需要给他喂鱼\N{\r原文字幕}You will need fish for him.
+Dialogue: 0,0:11:19.76,0:11:21.77,译文字幕,,0,0,0,,明天过来 我们要捕很多鱼\N{\r原文字幕}Come back tomorrow, we catch a lot.
+Dialogue: 0,0:11:22.36,0:11:23.63,译文字幕,,0,0,0,,我会的\N{\r原文字幕}I will.
+Dialogue: 0,0:11:24.17,0:11:25.67,译文字幕,,0,0,0,,你确定不要他了吗\N{\r原文字幕}Sure you don't want him?
+Dialogue: 0,0:11:25.89,0:11:27.84,译文字幕,,0,0,0,,在我住的地方很难养他\N{\r原文字幕}It is hard to keep him where I live.
+Dialogue: 0,0:11:27.96,0:11:30.62,译文字幕,,0,0,0,,为什么 你家里人不喜欢他吗\N{\r原文字幕}Why? Do your family not like him?
+Dialogue: 0,0:11:31.73,0:11:35.12,译文字幕,,0,0,0,,除了周末 我都是住在那个岛上\N{\r原文字幕}Er... except for weekends I live on that island.
+Dialogue: 0,0:11:36.69,0:11:38.31,译文字幕,,0,0,0,,监狱岛吗\N{\r原文字幕}The prison island?
+Dialogue: 0,0:11:38.79,0:11:40.50,译文字幕,,0,0,0,,你在那里工作吗\N{\r原文字幕}Do you work there?
+Dialogue: 0,0:11:41.28,0:11:42.52,译文字幕,,0,0,0,,不\N{\r原文字幕}No.
+Dialogue: 0,0:11:43.36,0:11:45.26,译文字幕,,0,0,0,,所以你是犯人\N{\r原文字幕}So you're a convict.
+Dialogue: 0,0:12:12.81,0:12:16.83,译文字幕,,0,0,0,,这肯定有诀窍的 去问问鲁格勒斯雅怎么做的\N{\r原文字幕}I'm sure there's a knack. Ask Lugaretzia how it's done.
+Dialogue: 0,0:12:16.88,0:12:19.51,译文字幕,,0,0,0,,她说橄榄花粉会让她的脸过敏\N{\r原文字幕}She says the olive pollen irritates her face.
+Dialogue: 0,0:12:19.63,0:12:21.36,译文字幕,,0,0,0,,她的脸看起来一直像在过敏\N{\r原文字幕}Her face always looks irritated.
+Dialogue: 0,0:12:21.36,0:12:23.26,译文字幕,,0,0,0,,那花粉会让她的脸更过敏\N{\r原文字幕}Well, it makes it more irritated.
+Dialogue: 0,0:12:23.29,0:12:24.59,译文字幕,,0,0,0,,能帮帮我吗\N{\r原文字幕}Will you help me?
+Dialogue: 0,0:12:24.62,0:12:26.93,译文字幕,,0,0,0,,- 我在工作 - 我在找工作\N{\r原文字幕}- I'm working. - Looking for a job.
+Dialogue: 0,0:12:29.98,0:12:33.65,译文字幕,,0,0,0,,- 你在干什么 - 推你一把 给你点动力\N{\r原文字幕}- What are you doing? - I am putting a rocket up your backside.
+Dialogue: 0,0:12:33.67,0:12:35.52,译文字幕,,0,0,0,,去推莱斯利啊\N{\r原文字幕}Well, put it up Leslie's.
+Dialogue: 0,0:12:43.58,0:12:46.38,译文字幕,,0,0,0,,你女朋友的事 我深表遗憾 小莱\N{\r原文字幕}Sorry to hear about your girlfriend, Les.
+Dialogue: 0,0:12:48.67,0:12:50.30,译文字幕,,0,0,0,,我也是\N{\r原文字幕}Me too.
+Dialogue: 0,0:12:52.76,0:12:54.75,译文字幕,,0,0,0,,我也... 非常遗憾\N{\r原文字幕}Me too... very much.
+Dialogue: 0,0:13:03.06,0:13:05.24,译文字幕,,0,0,0,,- 亲爱的 莱斯利 你去哪 - 去打猎\N{\r原文字幕}- Darling. Leslie. Where are you going? - Shooting.
+Dialogue: 0,0:13:05.29,0:13:06.47,译文字幕,,0,0,0,,但... 答应我...\N{\r原文字幕}But... promise me...
+Dialogue: 0,0:13:06.47,0:13:08.78,译文字幕,,0,0,0,,你不会去杀了亚历克西娅或她的...\N{\r原文字幕}promise me you won't shoot Alexia or her...
+Dialogue: 0,0:13:08.81,0:13:09.45,译文字幕,,0,0,0,,新朋友\N{\r原文字幕}new friend.
+Dialogue: 0,0:13:09.50,0:13:11.91,译文字幕,,0,0,0,,当然不会 你需要晚饭 不是吗\N{\r原文字幕}Of course I won't. You want supper, don't you?
+Dialogue: 0,0:13:11.91,0:13:12.85,译文字幕,,0,0,0,,亲爱的\N{\r原文字幕}Oh, darling.
+Dialogue: 0,0:13:12.87,0:13:15.58,译文字幕,,0,0,0,,在认识你们父亲之前 我拒绝了许多小伙子\N{\r原文字幕}Before I met your father I turned down lots of young men.
+Dialogue: 0,0:13:15.97,0:13:17.83,译文字幕,,0,0,0,,他们都是笑一笑就过去了\N{\r原文字幕}They laughed about it afterwards.
+Dialogue: 0,0:13:17.99,0:13:20.91,译文字幕,,0,0,0,,或许他们不是真想和你约会\N{\r原文字幕}Maybe they didn't really want to go out with you.
+Dialogue: 0,0:13:24.25,0:13:26.71,译文字幕,,0,0,0,,您知道有什么工作适合马戈吗\N{\r原文字幕}Do you know anyone who might have work for Margo?
+Dialogue: 0,0:13:26.74,0:13:28.28,译文字幕,,0,0,0,,我不知道从哪开始\N{\r原文字幕}I don't know where to start.
+Dialogue: 0,0:13:28.85,0:13:31.71,译文字幕,,0,0,0,,你对什么样的工作感兴趣\N{\r原文字幕}Well, what kind of job are you interested in?
+Dialogue: 0,0:13:31.98,0:13:36.75,译文字幕,,0,0,0,,我不知道 与时尚... 或者美食相关吧\N{\r原文字幕}I don't know. Something to do with fashion... or posh food.
+Dialogue: 0,0:13:37.37,0:13:40.29,译文字幕,,0,0,0,,你是把科孚和巴黎弄混了吧\N{\r原文字幕}I think you're muddling Corfu up with Paris.
+Dialogue: 0,0:13:41.21,0:13:43.23,译文字幕,,0,0,0,,您能不能留下她\N{\r原文字幕}Do you think you might have something for her,
+Dialogue: 0,0:13:43.25,0:13:45.13,译文字幕,,0,0,0,,给您或者配崔迪斯医生帮忙\N{\r原文字幕}helping you and Dr. Petridis?
+Dialogue: 0,0:13:45.73,0:13:48.28,译文字幕,,0,0,0,,可能不行 你有什么经验吗\N{\r原文字幕}Not really. Do you have any experience?
+Dialogue: 0,0:13:48.30,0:13:49.23,译文字幕,,0,0,0,,没有 没什么...\N{\r原文字幕}No, not ...
+Dialogue: 0,0:13:49.25,0:13:51.78,译文字幕,,0,0,0,,没有 但她喜欢排解他人痛苦\N{\r原文字幕}No, but she's always loved alleviating suffering.
+Dialogue: 0,0:13:51.96,0:13:53.71,译文字幕,,0,0,0,,不是吗 亲爱的\N{\r原文字幕}Haven't you, darling?
+Dialogue: 0,0:13:54.63,0:13:57.70,译文字幕,,0,0,0,,你知道的 那次... 你...\N{\r原文字幕}You know, that... that time... when you...
+Dialogue: 0,0:13:58.61,0:13:59.72,译文字幕,,0,0,0,,我什么\N{\r原文字幕}What?
+Dialogue: 0,0:14:00.42,0:14:02.30,译文字幕,,0,0,0,,请拜托给她份工作就好\N{\r原文字幕}Please give her a bloody job.
+Dialogue: 0,0:14:02.55,0:14:04.49,译文字幕,,0,0,0,,我们应该可以让她做些基本的辅助工作\N{\r原文字幕}I suppose we could use some general help.
+Dialogue: 0,0:14:04.51,0:14:06.96,译文字幕,,0,0,0,,- 跑腿 清理之类的 - 太好了\N{\r原文字幕}- You know, errands, tidying. - That's wonderful.
+Dialogue: 0,0:14:07.10,0:14:10.38,译文字幕,,0,0,0,,而且可能很快就会变成真正的护士\N{\r原文字幕}And in time that might become actual nursing.
+Dialogue: 0,0:14:10.64,0:14:12.51,译文字幕,,0,0,0,,之后还会变成马戈医生\N{\r原文字幕}Dr Margo will see you now.
+Dialogue: 0,0:14:12.78,0:14:15.35,译文字幕,,0,0,0,,- 会很有趣的 - 我们先别考虑那么远\N{\r原文字幕}- You know, that might be fun. - Let's not jump ahead.
+Dialogue: 0,0:14:15.40,0:14:16.61,译文字幕,,0,0,0,,我们不会让你\N{\r原文字幕}We won't be asking you to
+Dialogue: 0,0:14:16.63,0:14:19.67,译文字幕,,0,0,0,,去切阑尾的 那个归斯文管\N{\r原文字幕}cut out an appendix. We've got Sven for that.
+Dialogue: 0,0:14:20.15,0:14:21.80,译文字幕,,0,0,0,,你去见过他了吗\N{\r原文字幕}Have you seen him at all?
+Dialogue: 0,0:14:22.48,0:14:25.65,译文字幕,,0,0,0,,不... 我... 并没有去\N{\r原文字幕}No, I... Um, no, I don't think I have.
+Dialogue: 0,0:14:27.23,0:14:28.64,译文字幕,,0,0,0,,- 马戈 你希腊语说得如何 - 我...\N{\r原文字幕}- Margo, how's your Greek? - I'm ...
+Dialogue: 0,0:14:28.67,0:14:31.32,译文字幕,,0,0,0,,说得很好 她学得非常快\N{\r原文字幕}Oh, it's very good. She's incredibly quick.
+Dialogue: 0,0:14:31.46,0:14:32.74,译文字幕,,0,0,0,,事实证明 马夫罗达琪伯爵夫人\N{\r原文字幕}It turns out the Countess
+Dialogue: 0,0:14:32.74,0:14:35.40,译文字幕,,0,0,0,,的确得了不治之症\N{\r原文字幕}Mavrodaki does have an incurable disease.
+Dialogue: 0,0:14:35.43,0:14:36.78,译文字幕,,0,0,0,,- 亲爱的 - 臆想症\N{\r原文字幕}- Darling. - Hypochondria.
+Dialogue: 0,0:14:36.80,0:14:38.44,译文字幕,,0,0,0,,她还有一个巨大的...\N{\r原文字幕}She also has an enormous...
+Dialogue: 0,0:14:38.47,0:14:39.48,译文字幕,,0,0,0,,路易莎来了\N{\r原文字幕}Louisa's here.
+Dialogue: 0,0:14:40.05,0:14:41.41,译文字幕,,0,0,0,,别墅\N{\r原文字幕}villa.
+Dialogue: 0,0:14:42.33,0:14:46.16,译文字幕,,0,0,0,,- 您好 - 马戈要来工作一周\N{\r原文字幕}- Hello. - Margo is going to come and work here for a week.
+Dialogue: 0,0:14:46.43,0:14:48.82,译文字幕,,0,0,0,,或许... 接着一直留下来\N{\r原文字幕}And then perhaps... permanently.
+Dialogue: 0,0:14:48.95,0:14:50.76,译文字幕,,0,0,0,,很好 你什么时候能开始上班\N{\r原文字幕}Excellent. When can you start?
+Dialogue: 0,0:14:50.81,0:14:52.84,译文字幕,,0,0,0,,- 越快越好 - 秋天再说\N{\r原文字幕}- As soon as possible. - In the autumn?
+Dialogue: 0,0:14:56.40,0:14:57.86,译文字幕,,0,0,0,,闭嘴\N{\r原文字幕}Shut your face.
+Dialogue: 0,0:15:02.76,0:15:04.63,译文字幕,,0,0,0,,- 你这是干什么 不行 - 什么\N{\r原文字幕}- What are you doing? No. - What?
+Dialogue: 0,0:15:04.66,0:15:06.06,译文字幕,,0,0,0,,你不能把信天翁带回家来\N{\r原文字幕}You can't bring an albatross home.
+Dialogue: 0,0:15:06.08,0:15:06.75,译文字幕,,0,0,0,,这是海鸥\N{\r原文字幕}It's a gull.
+Dialogue: 0,0:15:06.75,0:15:08.74,译文字幕,,0,0,0,,这是信天翁 看看它的块头\N{\r原文字幕}It's an Albatross. Look at size of it.
+Dialogue: 0,0:15:08.77,0:15:10.23,译文字幕,,0,0,0,,它在磨牙呢\N{\r原文字幕}It's gnashing its teeth.
+Dialogue: 0,0:15:10.25,0:15:12.56,译文字幕,,0,0,0,,- 它们没有牙 - 那它也是在嚼东西\N{\r原文字幕}- They haven't got teeth. - It's gnashing something.
+Dialogue: 0,0:15:12.58,0:15:14.30,译文字幕,,0,0,0,,是"他" 而且他叫阿勒克罗\N{\r原文字幕}It's a he, and he's called Alecko.
+Dialogue: 0,0:15:14.33,0:15:16.27,译文字幕,,0,0,0,,我不信给动物取名那一套\N{\r原文字幕}I don't believe in naming animals.
+Dialogue: 0,0:15:16.31,0:15:18.56,译文字幕,,0,0,0,,拟人是笨蛋做的事\N{\r原文字幕}Anthropomorphism is for halfwits.
+Dialogue: 0,0:15:20.73,0:15:22.19,译文字幕,,0,0,0,,还是算了\N{\r原文字幕}Perhaps not.
+Dialogue: 0,0:15:24.85,0:15:26.51,译文字幕,,0,0,0,,我会再做一个笼子\N{\r原文字幕}I'll build another cage.
+Dialogue: 0,0:15:27.24,0:15:29.30,译文字幕,,0,0,0,,它们到处拉屎撒尿\N{\r原文字幕}They're pissing and crapping.
+Dialogue: 0,0:15:30.01,0:15:31.62,译文字幕,,0,0,0,,管管它们\N{\r原文字幕}Stop them.
+Dialogue: 0,0:15:38.65,0:15:40.81,译文字幕,,0,0,0,,我将救死扶伤\N{\r原文字幕}I'll be healing the sick and the lame.
+Dialogue: 0,0:15:40.86,0:15:42.04,译文字幕,,0,0,0,,此乃吾之使命\N{\r原文字幕}It's a calling.
+Dialogue: 0,0:15:42.06,0:15:44.58,译文字幕,,0,0,0,,你只是个打杂的 不是护士\N{\r原文字幕}You'll be a dogsbody, not a nurse.
+Dialogue: 0,0:15:44.61,0:15:47.49,译文字幕,,0,0,0,,我可比佛罗伦斯·南丁格尔好看多了\N{\r原文字幕}I'm a damn sight prettier than Florence Nightingale.
+Dialogue: 0,0:15:50.08,0:15:51.93,译文字幕,,0,0,0,,我敢说 在她的家人把她累垮之前\N{\r原文字幕}I'm sure she was ravishing
+Dialogue: 0,0:15:51.95,0:15:53.82,译文字幕,,0,0,0,,她还是很美的\N{\r原文字幕}before her family wore her down.
+Dialogue: 0,0:15:54.93,0:15:56.71,译文字幕,,0,0,0,,回来了 莱斯利\N{\r原文字幕}Oh, hello, Leslie.
+Dialogue: 0,0:15:57.24,0:16:00.11,译文字幕,,0,0,0,,看来你非常生气啊 是吗\N{\r原文字幕}Oh, you were really angry, weren't you?
+Dialogue: 0,0:16:01.75,0:16:04.85,译文字幕,,0,0,0,,- 外面为什么有只信天翁 - 谢谢\N{\r原文字幕}- Why is there an albatross outside? - Thank you.
+Dialogue: 0,0:16:04.88,0:16:06.79,译文字幕,,0,0,0,,是 我已经说过格里了\N{\r原文字幕}Yes, I've already told Gerry off.
+Dialogue: 0,0:16:06.84,0:16:08.92,译文字幕,,0,0,0,,一个与他同样喜爱生物的朋友\N{\r原文字幕}He was given to him by Kostis,
+Dialogue: 0,0:16:08.97,0:16:11.49,译文字幕,,0,0,0,,克斯提 送给他的\N{\r原文字幕}who's clearly as keen on creatures as Gerry,
+Dialogue: 0,0:16:11.49,0:16:13.21,译文字幕,,0,0,0,,所以他们是好朋友\N{\r原文字幕}so he's a nice friend for him.
+Dialogue: 0,0:16:13.41,0:16:15.37,译文字幕,,0,0,0,,他为什么不自己养那只信天翁\N{\r原文字幕}Why can't he look after the albatross?
+Dialogue: 0,0:16:15.37,0:16:16.42,译文字幕,,0,0,0,,那不是信天翁\N{\r原文字幕}It's not an albatross.
+Dialogue: 0,0:16:16.87,0:16:18.31,译文字幕,,0,0,0,,他不能养 因为除了周末\N{\r原文字幕}And he can't because during the week
+Dialogue: 0,0:16:18.34,0:16:19.43,译文字幕,,0,0,0,,其他时间他要蹲监狱\N{\r原文字幕}he's in jail.
+Dialogue: 0,0:16:20.29,0:16:21.47,译文字幕,,0,0,0,,什么\N{\r原文字幕}What?
+Dialogue: 0,0:16:22.76,0:16:25.43,译文字幕,,0,0,0,,你思想真开放啊\N{\r原文字幕}Mm. How open-minded are you?
+Dialogue: 0,0:16:26.59,0:16:28.85,译文字幕,,0,0,0,,- 他为什么进的监狱 - 他不想说\N{\r原文字幕}- Why is he in jail? - He didn't want to say.
+Dialogue: 0,0:16:28.91,0:16:30.51,译文字幕,,0,0,0,,你永远不会明白这些科孚人...\N{\r原文字幕}You never know these Corfiots ...
+Dialogue: 0,0:16:30.54,0:16:31.69,译文字幕,,0,0,0,,什么都干得出来\N{\r原文字幕}capable of anything.
+Dialogue: 0,0:16:31.71,0:16:34.56,译文字幕,,0,0,0,,你女朋友另觅高枝 不代表所有人都是坏人\N{\r原文字幕}Everyone isn't evil just because your girlfriend got a better offer.
+Dialogue: 0,0:16:34.59,0:16:35.91,译文字幕,,0,0,0,,你再说一遍\N{\r原文字幕}Say that again and I'll
+Dialogue: 0,0:16:35.91,0:16:37.44,译文字幕,,0,0,0,,我就烧了你正在写的那本书\N{\r原文字幕}burn the book you're writing.
+Dialogue: 0,0:16:37.44,0:16:38.98,译文字幕,,0,0,0,,你们两个能不能别吵了\N{\r原文字幕}Would you stop squabbling?
+Dialogue: 0,0:16:39.01,0:16:39.53,译文字幕,,0,0,0,,格里...\N{\r原文字幕}Gerry...
+Dialogue: 0,0:16:39.53,0:16:41.20,译文字幕,,0,0,0,,好的 我明天再去问问克斯提\N{\r原文字幕}All right, I'll ask Kostis again tomorrow.
+Dialogue: 0,0:16:41.25,0:16:43.43,译文字幕,,0,0,0,,不 你明天不能去\N{\r原文字幕}No, you're not going again tomorrow.
+Dialogue: 0,0:16:43.46,0:16:45.50,译文字幕,,0,0,0,,- 为什么 - 因为他可能是个杀人犯\N{\r原文字幕}- Why not? - Because he could be a murderer.
+Dialogue: 0,0:16:45.55,0:16:47.27,译文字幕,,0,0,0,,既然都让他周末出来了\N{\r原文字幕}He can't do anything that bad
+Dialogue: 0,0:16:47.27,0:16:49.08,译文字幕,,0,0,0,,- 就不可能有多坏 - 没错\N{\r原文字幕}- if they let him out at weekends. - Exactly.
+Dialogue: 0,0:16:49.11,0:16:52.29,译文字幕,,0,0,0,,这可不一定 在科孚 杀人会被判三年\N{\r原文字幕}Don't be so sure. In Corfu you get three years for murder
+Dialogue: 0,0:16:52.35,0:16:54.89,译文字幕,,0,0,0,,而炸鱼会被判五年\N{\r原文字幕}and five years if you're caught dynamiting fish.
+Dialogue: 0,0:16:54.92,0:16:56.85,译文字幕,,0,0,0,,我不在乎他做过什么 他很和善\N{\r原文字幕}I don't care what Kostis did. He's friendly and kind.
+Dialogue: 0,0:16:56.88,0:16:57.88,译文字幕,,0,0,0,,但我很在乎\N{\r原文字幕}Well I do care.
+Dialogue: 0,0:16:57.94,0:17:01.03,译文字幕,,0,0,0,,因为我要对你负责 还要确保你的安全\N{\r原文字幕}Cause I'm responsible for you and it is my job to keep you safe.
+Dialogue: 0,0:17:01.05,0:17:02.36,译文字幕,,0,0,0,,那我们为什么要搬家\N{\r原文字幕}Why did you bring us here then?
+Dialogue: 0,0:17:02.39,0:17:05.29,译文字幕,,0,0,0,,汉普郡比这要安全无数倍\N{\r原文字幕}It's a million times less safe than Hampshire.
+Dialogue: 0,0:17:05.75,0:17:09.21,译文字幕,,0,0,0,,如果你非得要和犯人一起钓鱼 那当然不安全\N{\r原文字幕}Well, it is if you insist on going fishing with convicts.
+Dialogue: 0,0:17:09.23,0:17:10.58,译文字幕,,0,0,0,,回答你的问题\N{\r原文字幕}And since you ask,
+Dialogue: 0,0:17:10.60,0:17:12.22,译文字幕,,0,0,0,,我把大家带到这里是为了...\N{\r原文字幕}I brought us here because...
+Dialogue: 0,0:17:13.93,0:17:15.62,译文字幕,,0,0,0,,我想让大家开心\N{\r原文字幕}because I wanted us to be happy.
+Dialogue: 0,0:17:46.82,0:17:49.74,译文字幕,,0,0,0,,慢点 吃早餐不要狼吞虎咽\N{\r原文字幕}Slow down. Don't wolf your breakfast.
+Dialogue: 0,0:17:50.90,0:17:52.51,译文字幕,,0,0,0,,是不是很好吃\N{\r原文字幕}Is it nice?
+Dialogue: 0,0:18:06.04,0:18:07.54,译文字幕,,0,0,0,,格里\N{\r原文字幕}Oh, Gerry.
+Dialogue: 0,0:18:07.83,0:18:09.86,译文字幕,,0,0,0,,我又做错了什么\N{\r原文字幕}What have I done wrong now?
+Dialogue: 0,0:18:10.36,0:18:12.34,译文字幕,,0,0,0,,去见你的朋友克斯提吧\N{\r原文字幕}Go and see your friend Kostis.
+Dialogue: 0,0:18:15.16,0:18:17.06,译文字幕,,0,0,0,,谢谢你 妈妈\N{\r原文字幕}Thank you, Mum.
+Dialogue: 0,0:18:18.47,0:18:22.15,译文字幕,,0,0,0,,你比我们都有责任心 我应该更信任你的\N{\r原文字幕}You're more responsible than all of us. I should trust you more.
+Dialogue: 0,0:18:22.59,0:18:26.16,译文字幕,,0,0,0,,我这不叫反复无常 叫善于变通\N{\r原文字幕}I'm not being inconsistent, I'm being flexible.
+Dialogue: 0,0:18:26.58,0:18:29.33,译文字幕,,0,0,0,,- 很好 - 但你得带个人一起去\N{\r原文字幕}- Good. - But you will have to take someone with you.
+Dialogue: 0,0:18:29.36,0:18:32.77,译文字幕,,0,0,0,,- 我是女生 - 不行 不行 我很忙\N{\r原文字幕}- I'm a girl. - No, no, no. I'm busy.
+Dialogue: 0,0:18:33.57,0:18:36.36,译文字幕,,0,0,0,,"你好 你叫什么名字"\N{\r原文字幕}"Oh, hello. So, what's your name?"
+Dialogue: 0,0:18:36.84,0:18:39.44,译文字幕,,0,0,0,,"劈腿的女友 你呢"\N{\r原文字幕}"Cheating girlfriend, what's yours?"
+Dialogue: 0,0:18:39.50,0:18:41.05,译文字幕,,0,0,0,,"莱斯利 容易受骗的莱斯利\N{\r原文字幕}"Leslie. Leslie Gullible.
+Dialogue: 0,0:18:41.07,0:18:42.20,译文字幕,,0,0,0,,很高兴见到你"\N{\r原文字幕}Lovely to meet you."
+Dialogue: 0,0:18:49.80,0:18:51.66,译文字幕,,0,0,0,,- 格里 - 你好\N{\r原文字幕}- Gerry. - Hello.
+Dialogue: 0,0:19:00.02,0:19:03.10,译文字幕,,0,0,0,,- 他是谁 - 我哥哥 莱斯利\N{\r原文字幕}- Who is he? - My brother Leslie.
+Dialogue: 0,0:19:05.10,0:19:06.53,译文字幕,,0,0,0,,他为什么带着枪\N{\r原文字幕}Why he has gun?
+Dialogue: 0,0:19:06.77,0:19:10.02,译文字幕,,0,0,0,,我另外一个哥哥拉里说 这是阴茎替代物\N{\r原文字幕}My other brother Larry says it's a penis substitute.
+Dialogue: 0,0:19:10.05,0:19:11.52,译文字幕,,0,0,0,,闭嘴\N{\r原文字幕}Shut up!
+Dialogue: 0,0:19:28.54,0:19:30.21,译文字幕,,0,0,0,,你看到没\N{\r原文字幕}Did you see that?
+Dialogue: 0,0:20:13.13,0:20:16.12,译文字幕,,0,0,0,,- 拉里 - 我灵感来了 停不下来\N{\r原文字幕}- Larry. - I mustn't stop, I'm in the mood.
+Dialogue: 0,0:20:21.56,0:20:23.07,译文字幕,,0,0,0,,帮我劝劝莱斯利\N{\r原文字幕}Help me with Leslie.
+Dialogue: 0,0:20:23.43,0:20:26.19,译文字幕,,0,0,0,,他没事的 时间是治愈良药\N{\r原文字幕}He's fine. Time is a big healer,
+Dialogue: 0,0:20:26.38,0:20:28.48,译文字幕,,0,0,0,,还意味着很多次的手淫\N{\r原文字幕}and plenty of so-called self-abuse.
+Dialogue: 0,0:20:32.13,0:20:33.71,译文字幕,,0,0,0,,这真是成年人干的事啊\N{\r原文字幕}Well, that's very mature.
+Dialogue: 0,0:20:33.88,0:20:36.42,译文字幕,,0,0,0,,帮帮你弟弟 做一个伙伴劝劝他\N{\r原文字幕}Help your brother. Be a pal to him.
+Dialogue: 0,0:20:37.40,0:20:39.20,译文字幕,,0,0,0,,我们性格差别太大了\N{\r原文字幕}We're so different.
+Dialogue: 0,0:20:40.04,0:20:43.10,译文字幕,,0,0,0,,好吧 我会带他进城转转\N{\r原文字幕}All right. I'll take him into town.
+Dialogue: 0,0:20:44.04,0:20:47.24,译文字幕,,0,0,0,,明天穿这身去工作 怎么样\N{\r原文字幕}For work tomorrow. What do you think?
+Dialogue: 0,0:20:47.29,0:20:48.90,译文字幕,,0,0,0,,不行 马戈\N{\r原文字幕}No, Margo.
+Dialogue: 0,0:20:49.21,0:20:51.96,译文字幕,,0,0,0,,不过很高兴看你算是会做衣服了\N{\r原文字幕}Still, good to see you dressmaking, sort of.
+Dialogue: 0,0:20:52.25,0:20:54.06,译文字幕,,0,0,0,,有客人来了\N{\r原文字幕}There's a guest.
+Dialogue: 0,0:20:57.42,0:20:58.72,译文字幕,,0,0,0,,给\N{\r原文字幕}Here.
+Dialogue: 0,0:21:04.78,0:21:08.57,译文字幕,,0,0,0,,妈妈 你看 多漂亮的水龟啊\N{\r原文字幕}Mum, look, the most amazing terrapin.
+Dialogue: 0,0:21:08.60,0:21:11.22,译文字幕,,0,0,0,,- 是啊 - 我叫它"老扑腾"\N{\r原文字幕}- Oh, yes. - I'm calling him Old Plop.
+Dialogue: 0,0:21:11.69,0:21:12.71,译文字幕,,0,0,0,,因为...\N{\r原文字幕}Because...?
+Dialogue: 0,0:21:13.12,0:21:15.55,译文字幕,,0,0,0,,因为他很老... 而且总扑腾\N{\r原文字幕}He's old and... he goes plop.
+Dialogue: 0,0:21:19.73,0:21:22.40,译文字幕,,0,0,0,,你好 我是德雷尔太太\N{\r原文字幕}Hello. I'm Mrs. Durrell.
+Dialogue: 0,0:21:23.37,0:21:24.74,译文字幕,,0,0,0,,我是克斯提\N{\r原文字幕}Kostis.
+Dialogue: 0,0:21:29.18,0:21:31.31,译文字幕,,0,0,0,,我们要去给龟修一个池塘\N{\r原文字幕}We're going to build a pond for it.
+Dialogue: 0,0:21:51.31,0:21:54.41,译文字幕,,0,0,0,,你还好吗... 老伙计\N{\r原文字幕}All right there... my old matey?
+Dialogue: 0,0:22:17.08,0:22:18.69,译文字幕,,0,0,0,,他需要朋友\N{\r原文字幕}He needs friends.
+Dialogue: 0,0:22:44.11,0:22:46.23,译文字幕,,0,0,0,,我听说你在服刑\N{\r原文字幕}I hear you're in prison.
+Dialogue: 0,0:22:48.60,0:22:50.03,译文字幕,,0,0,0,,是的\N{\r原文字幕}Yes.
+Dialogue: 0,0:22:51.27,0:22:53.07,译文字幕,,0,0,0,,多少年\N{\r原文字幕}For how many years?
+Dialogue: 0,0:22:53.29,0:22:56.53,译文字幕,,0,0,0,,- 三年 - 三年\N{\r原文字幕}- Er, three years. - Three years.
+Dialogue: 0,0:23:01.05,0:23:03.79,译文字幕,,0,0,0,,那么... 监狱如何\N{\r原文字幕}And... how is prison?
+Dialogue: 0,0:23:04.80,0:23:06.78,译文字幕,,0,0,0,,监狱就是监狱\N{\r原文字幕}It is a prison, uh?
+Dialogue: 0,0:23:07.40,0:23:09.59,译文字幕,,0,0,0,,监狱就是监狱 当然\N{\r原文字幕}It is a prison, of course.
+Dialogue: 0,0:23:13.32,0:23:15.76,译文字幕,,0,0,0,,我能否问问你为何入狱\N{\r原文字幕}May I ask how you came to be there?
+Dialogue: 0,0:23:17.97,0:23:19.40,译文字幕,,0,0,0,,- 我的英语... - 因为\N{\r原文字幕}- My English... - Because you see,
+Dialogue: 0,0:23:19.40,0:23:22.31,译文字幕,,0,0,0,,我必须得确定格里和你在一起是安全的\N{\r原文字幕}I have to know that Gerry is safe with you.
+Dialogue: 0,0:23:27.12,0:23:29.65,译文字幕,,0,0,0,,格里 下周末再见\N{\r原文字幕}Gerry. Until the next weekend.
+Dialogue: 0,0:23:37.17,0:23:39.33,译文字幕,,0,0,0,,他为什么走了 你跟他说了什么\N{\r原文字幕}Why's he gone? What did you say?
+Dialogue: 0,0:23:39.38,0:23:40.98,译文字幕,,0,0,0,,我认为你不该见他\N{\r原文字幕}I don't think you should see him.
+Dialogue: 0,0:23:41.02,0:23:43.52,译文字幕,,0,0,0,,我跟他说了下周末见就下周末见\N{\r原文字幕}I promised him I'd see him next weekend and I am going to.
+Dialogue: 0,0:23:48.44,0:23:50.92,译文字幕,,0,0,0,,大多数病人是因为小病来找我们的\N{\r原文字幕}Most patients come to us with minor ailments.
+Dialogue: 0,0:23:50.97,0:23:53.05,译文字幕,,0,0,0,,就像弗洛伦斯·南丁格尔说的那样\N{\r原文字幕}As Florence Nightingale said,
+Dialogue: 0,0:23:53.05,0:23:54.59,译文字幕,,0,0,0,,"别弄出人命就行"\N{\r原文字幕}"Just don't kill anybody."
+Dialogue: 0,0:23:55.13,0:23:56.52,译文字幕,,0,0,0,,我是转述\N{\r原文字幕}I'm paraphrasing.
+Dialogue: 0,0:23:56.79,0:23:58.89,译文字幕,,0,0,0,,你不需要接触任何医疗相关的东西\N{\r原文字幕}Mm. You won't be doing anything medical
+Dialogue: 0,0:23:58.94,0:24:01.81,译文字幕,,0,0,0,,但恐怕会见到一些吓人的场面\N{\r原文字幕}but there will be a few gruesome sights, I'm afraid.
+Dialogue: 0,0:24:01.86,0:24:04.38,译文字幕,,0,0,0,,- 我已经做好准备了 - 好女孩\N{\r原文字幕}- Oh, I've prepared myself for that. - Good girl.
+Dialogue: 0,0:24:12.79,0:24:14.99,译文字幕,,0,0,0,,天哪 我要吐了\N{\r原文字幕}Oh, God, I'm going to be sick.
+Dialogue: 0,0:24:25.09,0:24:28.22,译文字幕,,0,0,0,,- 你好 斯皮罗斯 - 你好 德雷尔女士\N{\r原文字幕}- Hello, Spiro. - Hello, Miss Durrells.
+Dialogue: 0,0:24:28.70,0:24:31.88,译文字幕,,0,0,0,,- 你要去哪 - 不 我只想问个问题\N{\r原文字幕}- Where you want to go? - No, I just have a question.
+Dialogue: 0,0:24:31.93,0:24:36.73,译文字幕,,0,0,0,,你认识一个叫克斯提的吗 他关在维托监狱\N{\r原文字幕}Do you a man called Kosti? He's in Vito Jail.
+Dialogue: 0,0:24:44.95,0:24:46.83,译文字幕,,0,0,0,,对 就是他\N{\r原文字幕}Oh, yes. Him.
+Dialogue: 0,0:24:46.86,0:24:48.70,译文字幕,,0,0,0,,他杀了他的妻子\N{\r原文字幕}He murdered his wife.
+Dialogue: 0,0:24:49.60,0:24:50.86,译文字幕,,0,0,0,,为什么要问他\N{\r原文字幕}Why you ask?
+Dialogue: 0,0:24:51.23,0:24:52.93,译文字幕,,0,0,0,,他周末的时候被放出来了\N{\r原文字幕}He's been let out at the
+Dialogue: 0,0:24:52.96,0:24:54.99,译文字幕,,0,0,0,,而且还和格里一起钓鱼\N{\r原文字幕}weekends and he's been fishing with Gerry.
+Dialogue: 0,0:24:55.01,0:24:56.71,译文字幕,,0,0,0,,你应该马上阻止他们\N{\r原文字幕}You should stop this right now.
+Dialogue: 0,0:24:57.14,0:24:59.91,译文字幕,,0,0,0,,我记得 他有一个儿子 但被带走了\N{\r原文字幕}I remember, he has a son who was taken from him
+Dialogue: 0,0:24:59.96,0:25:02.12,译文字幕,,0,0,0,,和离他很远的祖父母一起生活\N{\r原文字幕}and lives far away with his grandparents.
+Dialogue: 0,0:25:02.17,0:25:04.63,译文字幕,,0,0,0,,这也是他喜欢和格里在一起的原因\N{\r原文字幕}That's why he likes to be with Gerry perhaps.
+Dialogue: 0,0:25:04.66,0:25:07.30,译文字幕,,0,0,0,,也是他不安全的原因\N{\r原文字幕}And why he's not very safe.
+Dialogue: 0,0:25:20.07,0:25:24.05,译文字幕,,0,0,0,,萨默塞特·毛姆怎么样 他最近有点惨\N{\r原文字幕}What about Somerset Maugham, eh? He's a bit shit these days.
+Dialogue: 0,0:25:25.39,0:25:26.91,译文字幕,,0,0,0,,谁\N{\r原文字幕}Wh-Who?
+Dialogue: 0,0:25:27.51,0:25:29.37,译文字幕,,0,0,0,,那个作家 萨默塞特\N{\r原文字幕}The writer, Somerset...
+Dialogue: 0,0:25:31.85,0:25:33.53,译文字幕,,0,0,0,,算了\N{\r原文字幕}Never mind.
+Dialogue: 0,0:25:40.78,0:25:43.23,译文字幕,,0,0,0,,韦伯利公司正考虑\N{\r原文字幕}Webley's are thinking of
+Dialogue: 0,0:25:43.83,0:25:46.61,译文字幕,,0,0,0,,修改第二代步枪的准星\N{\r原文字幕}modifying the sights on the Mark II rifle.
+Dialogue: 0,0:25:55.17,0:25:57.12,译文字幕,,0,0,0,,请包扎一下 马戈\N{\r原文字幕}Dressing, please, Margo.
+Dialogue: 0,0:25:58.62,0:25:59.80,译文字幕,,0,0,0,,我要晕了\N{\r原文字幕}I'm going to faint.
+Dialogue: 0,0:25:59.83,0:26:01.95,译文字幕,,0,0,0,,- 就一点血 - 别提血\N{\r原文字幕}- It's only a bit of blood. - Don't say blood.
+Dialogue: 0,0:26:02.01,0:26:04.62,译文字幕,,0,0,0,,在诊所不能说血\N{\r原文字幕}Don't say blood in a doctor's surgery?
+Dialogue: 0,0:26:09.81,0:26:11.79,译文字幕,,0,0,0,,所以 你现在不用看\N{\r原文字幕}So, now you won't have
+Dialogue: 0,0:26:11.82,0:26:13.89,译文字幕,,0,0,0,,所谓"恶心的东西"了\N{\r原文字幕}to see the 'yucky things', as you call them.
+Dialogue: 0,0:26:14.10,0:26:15.55,译文字幕,,0,0,0,,我们要让你做一些文书工作\N{\r原文字幕}We'll move you to paperwork.
+Dialogue: 0,0:26:15.60,0:26:17.06,译文字幕,,0,0,0,,太好了\N{\r原文字幕}Oh, fine.
+Dialogue: 0,0:26:18.19,0:26:21.10,译文字幕,,0,0,0,,我还不会讲希腊语 没关系吗\N{\r原文字幕}And not speaking Greek yet, will that be a problem?
+Dialogue: 0,0:26:21.15,0:26:23.94,译文字幕,,0,0,0,,- 你确定想在这工作吗 - 当然\N{\r原文字幕}- Are you sure you want to work here? - Oh, yes, yes.
+Dialogue: 0,0:26:23.99,0:26:26.12,译文字幕,,0,0,0,,妈妈会为我骄傲的\N{\r原文字幕}Mum's really proud of me.
+Dialogue: 0,0:26:26.82,0:26:28.82,译文字幕,,0,0,0,,她很少为我骄傲\N{\r原文字幕}That's quite rare, actually.
+Dialogue: 0,0:26:29.67,0:26:31.08,译文字幕,,0,0,0,,要不要再去别的诊室\N{\r原文字幕}Should I have another go
+Dialogue: 0,0:26:31.08,0:26:33.58,译文字幕,,0,0,0,,- 试试是否恶心头晕吗 - 不 待在这\N{\r原文字幕}- and try not to heave or faint? - No, stay here.
+Dialogue: 0,0:26:33.91,0:26:36.96,译文字幕,,0,0,0,,学学希腊语 急什么呢\N{\r原文字幕}Learn Greek. What's the hurry?
+Dialogue: 0,0:26:40.50,0:26:42.31,译文字幕,,0,0,0,,马戈的性格有些...\N{\r原文字幕}Margo's been...
+Dialogue: 0,0:26:42.63,0:26:44.50,译文字幕,,0,0,0,,我不是说她天生如此\N{\r原文字幕}I mean, I wouldn't say she's a natural.
+Dialogue: 0,0:26:44.88,0:26:45.94,译文字幕,,0,0,0,,她很难与那些\N{\r原文字幕}She's uneasy with what
+Dialogue: 0,0:26:45.96,0:26:48.86,译文字幕,,0,0,0,,- 她称作"厌恶的老人"相处 - 保佑她\N{\r原文字幕}- she calls "repulsive old people". - Bless her.
+Dialogue: 0,0:26:48.89,0:26:51.26,译文字幕,,0,0,0,,似乎超过四十岁都算了\N{\r原文字幕}Seems to be anyone over 40.
+Dialogue: 0,0:26:52.42,0:26:55.30,译文字幕,,0,0,0,,- 你还好吗 - 如果你有个儿子\N{\r原文字幕}- Are you all right? - If you had a son,
+Dialogue: 0,0:26:55.35,0:26:56.90,译文字幕,,0,0,0,,你会让他和一个\N{\r原文字幕}would you let him go fishing
+Dialogue: 0,0:26:56.90,0:26:59.05,译文字幕,,0,0,0,,可能是杀人犯的人一起钓鱼吗\N{\r原文字幕}with a convict who might be a murderer?
+Dialogue: 0,0:26:59.35,0:27:02.11,译文字幕,,0,0,0,,天哪 什么叫可能是\N{\r原文字幕}Gosh. Might be?
+Dialogue: 0,0:27:02.65,0:27:04.26,译文字幕,,0,0,0,,没错 有一个杀人犯\N{\r原文字幕}See, there's this murderer,
+Dialogue: 0,0:27:04.26,0:27:06.69,译文字幕,,0,0,0,,叫克斯提... 帕纳...\N{\r原文字幕}Kosti... er Pana...
+Dialogue: 0,0:27:07.07,0:27:10.39,译文字幕,,0,0,0,,不知道 无论如何 可能不是他\N{\r原文字幕}Oh, I don't know. Anyway, it might not be him.
+Dialogue: 0,0:27:10.82,0:27:13.19,译文字幕,,0,0,0,,- 克斯提是个常见的名字 - 我知道\N{\r原文字幕}- Kosti's a common name. - I know.
+Dialogue: 0,0:27:13.24,0:27:15.48,译文字幕,,0,0,0,,弗洛伦斯 我不知道怎么办\N{\r原文字幕}Oh, Florence, I don't know what to do.
+Dialogue: 0,0:27:15.48,0:27:16.77,译文字幕,,0,0,0,,问问斯文\N{\r原文字幕}Ask Sven.
+Dialogue: 0,0:27:17.08,0:27:19.33,译文字幕,,0,0,0,,他住在这儿很多年了\N{\r原文字幕}He's lived here for years and,
+Dialogue: 0,0:27:19.36,0:27:21.24,译文字幕,,0,0,0,,而且作为一个男人 非常...\N{\r原文字幕}as a man, very much so...
+Dialogue: 0,0:27:21.29,0:27:24.04,译文字幕,,0,0,0,,为什么每个人都喜欢斯文\N{\r原文字幕}Why is everyone so obsessed with Sven?
+Dialogue: 0,0:27:24.42,0:27:27.13,译文字幕,,0,0,0,,他就是个狡猾的瑞典人\N{\r原文字幕}He's just a tricky bloody Swede.
+Dialogue: 0,0:27:27.93,0:27:31.09,译文字幕,,0,0,0,,抱歉 我以为你们俩个很合得来\N{\r原文字幕}Excuse me, I just thought you two might get on.
+Dialogue: 0,0:27:31.14,0:27:33.30,译文字幕,,0,0,0,,很明显 并不好\N{\r原文字幕}Well, quite clearly we don't.
+Dialogue: 0,0:27:33.97,0:27:36.84,译文字幕,,0,0,0,,他有可能因为偷了一张邮政汇票而坐牢\N{\r原文字幕}He's most likely in jail for stealing a postal order.
+Dialogue: 0,0:27:37.05,0:27:39.05,译文字幕,,0,0,0,,蹲三年 就因为偷一张汇票\N{\r原文字幕}Three years for a postal order?
+Dialogue: 0,0:27:39.05,0:27:41.37,译文字幕,,0,0,0,,炸鱼还要判五年呢\N{\r原文字幕}Five years for dynamiting fish.
+Dialogue: 0,0:27:41.52,0:27:43.35,译文字幕,,0,0,0,,科孚有自己的规定\N{\r原文字幕}They have their own rules here.
+Dialogue: 0,0:27:43.66,0:27:44.49,译文字幕,,0,0,0,,他们不会让\N{\r原文字幕}They'll hardly let a
+Dialogue: 0,0:27:44.49,0:27:47.38,译文字幕,,0,0,0,,一个暴力的杀人犯外出钓鱼\N{\r原文字幕}violent murderer out to do a spot of angling.
+Dialogue: 0,0:27:47.84,0:27:51.15,译文字幕,,0,0,0,,你说得对 格里能感觉得到\N{\r原文字幕}Mm. You're right. You're right. And Gerry's very sensible.
+Dialogue: 0,0:27:51.53,0:27:54.22,译文字幕,,0,0,0,,- 他很擅长判断人的性格 - 格里\N{\r原文字幕}- He's a very good judge of character. - Gerry?
+Dialogue: 0,0:27:54.74,0:27:57.23,译文字幕,,0,0,0,,我们看过他跟老鼠聊天\N{\r原文字幕}Who we found chatting to a rat?
+Dialogue: 0,0:28:28.27,0:28:29.45,译文字幕,,0,0,0,,抱歉\N{\r原文字幕}Sorry.
+Dialogue: 0,0:28:51.30,0:28:54.05,译文字幕,,0,0,0,,我的儿子 他和你一样大\N{\r原文字幕}My son, he's the age of you.
+Dialogue: 0,0:28:55.31,0:28:57.06,译文字幕,,0,0,0,,我不能见他\N{\r原文字幕}I must not see him.
+Dialogue: 0,0:29:02.60,0:29:04.93,译文字幕,,0,0,0,,我三岁时 父亲去世了\N{\r原文字幕}My father died when I was three.
+Dialogue: 0,0:29:07.94,0:29:10.02,译文字幕,,0,0,0,,我对他只有一段记忆\N{\r原文字幕}I have only one memory of him.
+Dialogue: 0,0:29:10.07,0:29:11.60,译文字幕,,0,0,0,,我们俩\N{\r原文字幕}Both of us...
+Dialogue: 0,0:29:11.91,0:29:14.84,译文字幕,,0,0,0,,一起看池塘里的小金鱼\N{\r原文字幕}watching the goldfish in our pond.
+Dialogue: 0,0:29:15.78,0:29:18.59,译文字幕,,0,0,0,,小小的橙色鱼\N{\r原文字幕}You know, little orange fish?
+Dialogue: 0,0:29:34.34,0:29:36.42,译文字幕,,0,0,0,,- 干得好 - 谢谢你\N{\r原文字幕}- Oh, well done. - Thank you.
+Dialogue: 0,0:29:36.83,0:29:39.59,译文字幕,,0,0,0,,你是按日期还是按患者名字来排序的\N{\r原文字幕}Did you decide to go by date order or patient name?
+Dialogue: 0,0:29:39.97,0:29:42.03,译文字幕,,0,0,0,,患者的身高\N{\r原文字幕}Um, patient height.
+Dialogue: 0,0:29:42.69,0:29:44.52,译文字幕,,0,0,0,,- 身高 - 是的 因为这是\N{\r原文字幕}- Height? - Yes. Because it's the first
+Dialogue: 0,0:29:44.53,0:29:47.15,译文字幕,,0,0,0,,你表格的第一项 所以一定很重要\N{\r原文字幕}thing on your form, so it must be important.
+Dialogue: 0,0:29:47.92,0:29:49.64,译文字幕,,0,0,0,,个高的病例在这儿\N{\r原文字幕}Taller patients are up here.
+Dialogue: 0,0:29:49.64,0:29:52.73,译文字幕,,0,0,0,,所以根本不需要记名字 反正我总是忘记\N{\r原文字幕}So no need to remember names ... which I always forget anyway.
+Dialogue: 0,0:29:52.78,0:29:55.38,译文字幕,,0,0,0,,你只需要记住他们多高\N{\r原文字幕}You just need to remember how tall they are.
+Dialogue: 0,0:29:56.32,0:29:59.04,译文字幕,,0,0,0,,- 没错 - 这些文件呢\N{\r原文字幕}- Right. - What are these files?
+Dialogue: 0,0:29:59.66,0:30:01.74,译文字幕,,0,0,0,,这是上一位医生的\N{\r原文字幕}It's the last doctor's.
+Dialogue: 0,0:30:01.79,0:30:06.12,译文字幕,,0,0,0,,好像被警方叫去做协助案件的医学报告了\N{\r原文字幕}Seems to be medical reports on police cases he was called out on.
+Dialogue: 0,0:30:06.17,0:30:08.66,译文字幕,,0,0,0,,别管这些了\N{\r原文字幕}Just... just leave them.
+Dialogue: 0,0:30:09.71,0:30:12.53,译文字幕,,0,0,0,,而且先别碰其他的了\N{\r原文字幕}In fact, don't touch anything else.
+Dialogue: 0,0:30:21.14,0:30:23.22,译文字幕,,0,0,0,,科斯提·帕帕多珀\N{\r原文字幕}Kosti Papadopol...
+Dialogue: 0,0:30:34.07,0:30:37.67,译文字幕,,0,0,0,,在档案室干得不错 听说你按身高来排序\N{\r原文字幕}So, good work on the filing. In order of height, I hear.
+Dialogue: 0,0:30:37.83,0:30:41.08,译文字幕,,0,0,0,,我开始觉得这是个愚蠢的想法了\N{\r原文字幕}I'm beginning to think that might have been a stupid idea.
+Dialogue: 0,0:30:42.14,0:30:44.73,译文字幕,,0,0,0,,总之 现在是星期五的中午\N{\r原文字幕}Anyway, it's Friday afternoon,
+Dialogue: 0,0:30:44.76,0:30:47.03,译文字幕,,0,0,0,,给你这星期的工资\N{\r原文字幕}so there's your wages for the week.
+Dialogue: 0,0:30:48.76,0:30:51.57,译文字幕,,0,0,0,,- 听着 - 我知道不太好\N{\r原文字幕}- Look ... - I know this is horrible,
+Dialogue: 0,0:30:51.60,0:30:52.91,译文字幕,,0,0,0,,但我恐怕不能在这工作了\N{\r原文字幕}but I'm afraid I can't work here.
+Dialogue: 0,0:30:52.96,0:30:55.75,译文字幕,,0,0,0,,我不擅长整理档案 而且每个人都生着病\N{\r原文字幕}I'm not very good at filing and everyone's so unwell.
+Dialogue: 0,0:30:55.80,0:30:58.92,译文字幕,,0,0,0,,而且以后还会看到更多病人\N{\r原文字幕}And it's just going to go on and on and on.
+Dialogue: 0,0:31:12.53,0:31:13.90,译文字幕,,0,0,0,,格里\N{\r原文字幕}Gerry?
+Dialogue: 0,0:31:16.37,0:31:19.25,译文字幕,,0,0,0,,今天还好吗\N{\r原文字幕}So, did today go well?
+Dialogue: 0,0:31:19.45,0:31:22.31,译文字幕,,0,0,0,,当然 为什么不好\N{\r原文字幕}Of course. Why wouldn't it?
+Dialogue: 0,0:31:31.25,0:31:34.56,译文字幕,,0,0,0,,别生气了 我从诊所借来了这个\N{\r原文字幕}Don't be cross, but I borrowed this from the surgery.
+Dialogue: 0,0:31:36.08,0:31:39.54,译文字幕,,0,0,0,,我不擅长治病 但是个称职的侦探\N{\r原文字幕}I may not be good with the sick but I am a good sleuth.
+Dialogue: 0,0:31:39.59,0:31:41.29,译文字幕,,0,0,0,,你在说什么 马戈\N{\r原文字幕}What are you talking about, Margo?
+Dialogue: 0,0:31:41.32,0:31:43.84,译文字幕,,0,0,0,,这是个医生写的犯罪现场报告\N{\r原文字幕}It's a doctor's report from a crime scene.
+Dialogue: 0,0:31:43.87,0:31:46.19,译文字幕,,0,0,0,,我花了一天时间翻译它\N{\r原文字幕}I spent all day translating it.
+Dialogue: 0,0:31:46.81,0:31:49.52,译文字幕,,0,0,0,,我就是希腊版的阿加莎·克里斯蒂\N{\r原文字幕}I'm like a Greek Agatha Christie.
+Dialogue: 0,0:31:49.81,0:31:51.26,译文字幕,,0,0,0,,马普戈小姐\N{\r原文字幕}Miss Marpo.
+Dialogue: 0,0:31:51.58,0:31:53.07,译文字幕,,0,0,0,,你懂这个梗吗\N{\r原文字幕}Do you get it?
+Dialogue: 0,0:31:53.44,0:31:55.99,译文字幕,,0,0,0,,克斯提 帕帕... 帕帕先生\N{\r原文字幕}Mr. Kosti Pap... Pap...
+Dialogue: 0,0:31:56.65,0:31:59.02,译文字幕,,0,0,0,,妻子身上有多处刺伤\N{\r原文字幕}wife had many stab wounds.
+Dialogue: 0,0:32:00.51,0:32:01.90,译文字幕,,0,0,0,,残忍的殴打\N{\r原文字幕}Brutal beating?
+Dialogue: 0,0:32:02.22,0:32:05.65,译文字幕,,0,0,0,,山羊人在外面\N{\r原文字幕}Oh, um, the goat chap is outside.
+Dialogue: 0,0:32:06.54,0:32:09.76,译文字幕,,0,0,0,,- 什么 - 救了拉里一命的那个外国人\N{\r原文字幕}- What? - You know, the foreigner who saved Larry's life.
+Dialogue: 0,0:32:11.17,0:32:14.25,译文字幕,,0,0,0,,是的 多亏了他 山羊人\N{\r原文字幕}Yeah, thanks for that, goat chap.
+Dialogue: 0,0:32:22.26,0:32:25.96,译文字幕,,0,0,0,,- 打算开个动物园 - 他们都是格里的\N{\r原文字幕}- Starting a zoo? - Oh, they're Gerry's.
+Dialogue: 0,0:32:26.02,0:32:29.12,译文字幕,,0,0,0,,- 比起人他更喜欢动物 - 我和他一样\N{\r原文字幕}- He prefers animals to people. - I agree with him.
+Dialogue: 0,0:32:29.33,0:32:33.08,译文字幕,,0,0,0,,对 我和每个人一样都惊叹于蜘蛛网\N{\r原文字幕}Yes. I mean, I admire a spider's web as much as anyone,
+Dialogue: 0,0:32:33.11,0:32:35.69,译文字幕,,0,0,0,,但我还是更喜欢去圣保罗大教堂\N{\r原文字幕}but I still prefer St Paul's Cathedral.
+Dialogue: 0,0:32:36.28,0:32:37.67,译文字幕,,0,0,0,,男人真暴力\N{\r原文字幕}Men are so violent.
+Dialogue: 0,0:32:37.69,0:32:40.83,译文字幕,,0,0,0,,很抱歉我冒犯了你 就因为你不喜欢...\N{\r原文字幕}I'm sorry I took offence at your dislike of the...
+Dialogue: 0,0:32:40.85,0:32:44.42,译文字幕,,0,0,0,,很抱歉 我之前不喜欢你拉...\N{\r原文字幕}I'm sorry I didn't enjoy your playing of the er...
+Dialogue: 0,0:32:45.66,0:32:47.76,译文字幕,,0,0,0,,他们太礼貌了\N{\r原文字幕}It's all so polite.
+Dialogue: 0,0:32:48.32,0:32:50.09,译文字幕,,0,0,0,,去床上解决啊\N{\r原文字幕}Go to bed.
+Dialogue: 0,0:32:52.54,0:32:54.32,译文字幕,,0,0,0,,我们走吧\N{\r原文字幕}Hey, come on then.
+Dialogue: 0,0:32:55.05,0:32:56.82,译文字幕,,0,0,0,,带我去喝酒\N{\r原文字幕}Take me drinking.
+Dialogue: 0,0:32:58.04,0:33:00.44,译文字幕,,0,0,0,,你说你搞不定那些的橄榄\N{\r原文字幕}You said you have trouble with your olives.
+Dialogue: 0,0:33:00.62,0:33:01.85,译文字幕,,0,0,0,,是的\N{\r原文字幕}Yes.
+Dialogue: 0,0:33:07.22,0:33:08.66,译文字幕,,0,0,0,,用网\N{\r原文字幕}Nets.
+Dialogue: 0,0:33:09.73,0:33:12.14,译文字幕,,0,0,0,,这是一个非常希腊式的解决方法\N{\r原文字幕}It's a very Greek solution.
+Dialogue: 0,0:33:12.73,0:33:15.30,译文字幕,,0,0,0,,把网铺好 然后你等就可以了\N{\r原文字幕}Just leave the nets. You wait.
+Dialogue: 0,0:33:16.40,0:33:18.54,译文字幕,,0,0,0,,思考一下人生\N{\r原文字幕}Contemplate existence.
+Dialogue: 0,0:33:19.24,0:33:21.81,译文字幕,,0,0,0,,时不时抖一下\N{\r原文字幕}Then you occasionally collect.
+Dialogue: 0,0:33:22.57,0:33:24.80,译文字幕,,0,0,0,,再等一下\N{\r原文字幕}Then you wait some more.
+Dialogue: 0,0:33:32.21,0:33:34.78,译文字幕,,0,0,0,,我和弗洛伦斯·配崔迪斯聊过了\N{\r原文字幕}I talked to Florence Petridis.
+Dialogue: 0,0:33:35.41,0:33:38.36,译文字幕,,0,0,0,,她告诉我你在担心一个罪犯\N{\r原文字幕}She told me you were worried about a criminal.
+Dialogue: 0,0:33:39.01,0:33:41.35,译文字幕,,0,0,0,,- 我能帮上忙吗 - 不用了\N{\r原文字幕}- Can I help? - No.
+Dialogue: 0,0:33:41.72,0:33:43.15,译文字幕,,0,0,0,,真的不用了\N{\r原文字幕}No, really.
+Dialogue: 0,0:33:43.51,0:33:45.71,译文字幕,,0,0,0,,- 你这不会是英国人的绅士吧 - 不是\N{\r原文字幕}- You're not just being British? - Oh, no.
+Dialogue: 0,0:33:45.73,0:33:47.81,译文字幕,,0,0,0,,我身上的英国气息变少了\N{\r原文字幕}I get less British by the day.
+Dialogue: 0,0:33:48.24,0:33:50.06,译文字幕,,0,0,0,,只剩下89%了\N{\r原文字幕}I'm down to 89%.
+Dialogue: 0,0:33:53.31,0:33:55.42,译文字幕,,0,0,0,,好吧 你知道他们这里有一句话\N{\r原文字幕}Well, you know what they say around here.
+Dialogue: 0,0:34:00.64,0:34:02.42,译文字幕,,0,0,0,,能告诉我这句话什么意思吗\N{\r原文字幕}Remind me what they mean?
+Dialogue: 0,0:34:02.74,0:34:04.59,译文字幕,,0,0,0,,"你知道我在哪里"\N{\r原文字幕}"You know where I am."
+Dialogue: 0,0:34:11.41,0:34:12.86,译文字幕,,0,0,0,,格里\N{\r原文字幕}Gerry?
+Dialogue: 0,0:34:13.92,0:34:15.23,译文字幕,,0,0,0,,格里\N{\r原文字幕}Gerry?
+Dialogue: 0,0:34:15.82,0:34:16.91,译文字幕,,0,0,0,,格里去哪里了\N{\r原文字幕}Where's Gerry?
+Dialogue: 0,0:34:17.07,0:34:19.15,译文字幕,,0,0,0,,我听到他骑着自行车出去了\N{\r原文字幕}I think I heard him leave on the bike.
+Dialogue: 0,0:34:19.46,0:34:21.02,译文字幕,,0,0,0,,克斯提\N{\r原文字幕}Kosti.
+Dialogue: 0,0:34:21.69,0:34:24.32,译文字幕,,0,0,0,,格里 格里\N{\r原文字幕}Gerry? Gerry!
+Dialogue: 0,0:34:25.30,0:34:28.20,译文字幕,,0,0,0,,- 去叫莱斯利和拉里 - 他们出去了\N{\r原文字幕}- Get Leslie and Larry. - They've gone out.
+Dialogue: 0,0:34:31.14,0:34:32.39,译文字幕,,0,0,0,,格里\N{\r原文字幕}Gerry!
+Dialogue: 0,0:34:39.23,0:34:41.77,译文字幕,,0,0,0,,够了 别苦着一张脸了\N{\r原文字幕}Enough. No more moping.
+Dialogue: 0,0:34:42.78,0:34:44.53,译文字幕,,0,0,0,,我会给你找个新女友的\N{\r原文字幕}We'll find you a new girlfriend.
+Dialogue: 0,0:34:44.53,0:34:46.02,译文字幕,,0,0,0,,只有一个亚历克西娅\N{\r原文字幕}There's only one Alexia.
+Dialogue: 0,0:34:46.07,0:34:47.72,译文字幕,,0,0,0,,那可不太可能\N{\r原文字幕}I doubt that, actually.
+Dialogue: 0,0:34:47.83,0:34:49.75,译文字幕,,0,0,0,,- 亚历克西娅 - 啊\N{\r原文字幕}- Alexia? - Nai?
+Dialogue: 0,0:34:50.54,0:34:51.91,译文字幕,,0,0,0,,看到了吗\N{\r原文字幕}Hm. See?
+Dialogue: 0,0:34:52.44,0:34:53.84,译文字幕,,0,0,0,,你只是运气好\N{\r原文字幕}Lucky guess.
+Dialogue: 0,0:34:54.35,0:34:56.82,译文字幕,,0,0,0,,- 而且她长得像马 - 才不是\N{\r原文字幕}- And she looks like a horse. - No, she doesn't.
+Dialogue: 0,0:34:59.25,0:35:02.11,译文字幕,,0,0,0,,她怎么样 太美了\N{\r原文字幕}What about her? Sensational.
+Dialogue: 0,0:35:02.13,0:35:04.75,译文字幕,,0,0,0,,- 不 她长得像马 - 你才像马\N{\r原文字幕}- No, she looks like a horse. - You look like a horse.
+Dialogue: 0,0:35:05.84,0:35:07.74,译文字幕,,0,0,0,,我去把她拿下\N{\r原文字幕}I'll bring her over.
+Dialogue: 0,0:35:15.19,0:35:16.43,译文字幕,,0,0,0,,你好\N{\r原文字幕}Hello.
+Dialogue: 0,0:35:16.48,0:35:18.33,译文字幕,,0,0,0,,我是劳伦斯·德雷尔\N{\r原文字幕}I'm Lawrence Durrell.
+Dialogue: 0,0:35:18.61,0:35:20.43,译文字幕,,0,0,0,,我是一名作家\N{\r原文字幕}I'm an author.
+Dialogue: 0,0:35:26.78,0:35:28.30,译文字幕,,0,0,0,,格里\N{\r原文字幕}Gerry!
+Dialogue: 0,0:36:05.93,0:36:07.94,译文字幕,,0,0,0,,你是本地人吗\N{\r原文字幕}And are you local?
+Dialogue: 0,0:36:10.03,0:36:12.61,译文字幕,,0,0,0,,你的鼻子遗传了谁的 真美\N{\r原文字幕}Where did you get that nose? It's beautiful.
+Dialogue: 0,0:36:12.78,0:36:15.32,译文字幕,,0,0,0,,父母吧 你真... 坏\N{\r原文字幕}My parents? You are... a bad boy.
+Dialogue: 0,0:36:15.37,0:36:17.02,译文字幕,,0,0,0,,那听上去很可疑...\N{\r原文字幕}That sounds suspiciously like...
+Dialogue: 0,0:36:17.05,0:36:18.95,译文字幕,,0,0,0,,你好 我是莱斯利·德雷尔\N{\r原文字幕}Hello. I'm Leslie Durrell.
+Dialogue: 0,0:36:20.90,0:36:22.64,译文字幕,,0,0,0,,你好 我是莱斯利·德雷尔\N{\r原文字幕}Hello. Leslie Durrell.
+Dialogue: 0,0:36:22.66,0:36:24.32,译文字幕,,0,0,0,,虽然我不在乎 但你是谁\N{\r原文字幕}I don't care, but who are you?
+Dialogue: 0,0:36:24.87,0:36:27.19,译文字幕,,0,0,0,,- 好 - 我们回家吧\N{\r原文字幕}- Good. - Let's go home.
+Dialogue: 0,0:36:27.62,0:36:29.77,译文字幕,,0,0,0,,- 不要 - 我可以给你一点恋爱的建议吗\N{\r原文字幕}- No. - Can I give you advice about women?
+Dialogue: 0,0:36:29.79,0:36:31.67,译文字幕,,0,0,0,,- 不可以 - 不要太有戒心\N{\r原文字幕}- No. - Don't be defensive.
+Dialogue: 0,0:36:31.89,0:36:35.35,译文字幕,,0,0,0,,你是一个好男人 诚实和脆弱就好\N{\r原文字幕}You're a decent chap. Just be honest and vulnerable.
+Dialogue: 0,0:36:35.64,0:36:38.59,译文字幕,,0,0,0,,- 你个傻逼 - 我觉得你喝够了\N{\r原文字幕}- Shove it up your arse. - I think you've had enough.
+Dialogue: 0,0:36:38.64,0:36:41.30,译文字幕,,0,0,0,,我这是借酒消愁\N{\r原文字幕}Mm. Well, I'm drinking to forget.
+Dialogue: 0,0:36:41.35,0:36:44.81,译文字幕,,0,0,0,,- 还有借吃消愁 - 好吧\N{\r原文字幕}- And eating to forget. Mm. - Right.
+Dialogue: 0,0:37:02.63,0:37:04.32,译文字幕,,0,0,0,,快跑\N{\r原文字幕}Go, go!
+Dialogue: 0,0:37:20.08,0:37:22.09,译文字幕,,0,0,0,,带去警察局\N{\r原文字幕}To the police station.
+Dialogue: 0,0:37:25.23,0:37:27.00,译文字幕,,0,0,0,,这其中有误会\N{\r原文字幕}There's been a misunderstanding here.
+Dialogue: 0,0:37:27.11,0:37:30.65,译文字幕,,0,0,0,,他在偷马夫罗达琪伯爵夫人的东西\N{\r原文字幕}He was stealing from the Countess Mavrodaki.
+Dialogue: 0,0:37:30.66,0:37:32.30,译文字幕,,0,0,0,,你们... 快走吧\N{\r原文字幕}You ... leave.
+Dialogue: 0,0:37:41.87,0:37:43.28,译文字幕,,0,0,0,,莱斯利\N{\r原文字幕}Leslie.
+Dialogue: 0,0:37:43.33,0:37:46.00,译文字幕,,0,0,0,,还在为我伤心吗\N{\r原文字幕}Still being so sad about me?
+Dialogue: 0,0:37:53.09,0:37:54.31,译文字幕,,0,0,0,,莱斯利\N{\r原文字幕}Leslie.
+Dialogue: 0,0:38:06.15,0:38:08.95,译文字幕,,0,0,0,,傻 太傻了\N{\r原文字幕}Stupid, stupid boy.
+Dialogue: 0,0:38:14.39,0:38:16.29,译文字幕,,0,0,0,,格里 你应该告诉我\N{\r原文字幕}Gerry, You should have told me
+Dialogue: 0,0:38:16.31,0:38:18.43,译文字幕,,0,0,0,,- 你去哪里的 - 要说了你肯定不让我去\N{\r原文字幕}- where you were going. - You wouldn't have let me go.
+Dialogue: 0,0:38:18.48,0:38:20.55,译文字幕,,0,0,0,,你和克斯提在偷东西\N{\r原文字幕}You and Kosti were stealing.
+Dialogue: 0,0:38:20.61,0:38:22.49,译文字幕,,0,0,0,,克斯提只是一片好意\N{\r原文字幕}Kosti was being kind.
+Dialogue: 0,0:38:23.44,0:38:26.17,译文字幕,,0,0,0,,马戈给我看了一份警察局里的医疗档案 格里\N{\r原文字幕}Margo showed me a police medical file, Gerry.
+Dialogue: 0,0:38:26.21,0:38:27.81,译文字幕,,0,0,0,,他捅了他的妻子 玛利亚\N{\r原文字幕}He stabbed his wife, Maria,
+Dialogue: 0,0:38:27.81,0:38:30.92,译文字幕,,0,0,0,,十六刀 然后把她扔进海里\N{\r原文字幕}16 times and then he threw her in the sea.
+Dialogue: 0,0:38:31.36,0:38:33.65,译文字幕,,0,0,0,,- 克斯提的妻子叫伊欧利亚 - 什么\N{\r原文字幕}- Kosti's wife was called Ioulia. - What?
+Dialogue: 0,0:38:33.70,0:38:35.65,译文字幕,,0,0,0,,她叫玛利亚·帕帕多普洛斯\N{\r原文字幕}It's Maria Papadopoulos.
+Dialogue: 0,0:38:35.71,0:38:37.37,译文字幕,,0,0,0,,是伊欧利亚·潘欧帕罗斯\N{\r原文字幕}Ioulia Panoupolos.
+Dialogue: 0,0:38:37.37,0:38:40.70,译文字幕,,0,0,0,,你连他的名字都没读对 根本不了解他\N{\r原文字幕}You don't even know his name properly or anything about him.
+Dialogue: 0,0:38:42.45,0:38:44.04,译文字幕,,0,0,0,,对不起\N{\r原文字幕}Oh, I'm sorry.
+Dialogue: 0,0:38:44.20,0:38:46.12,译文字幕,,0,0,0,,那他是另外一个克斯提\N{\r原文字幕}So he's a different Kosti.
+Dialogue: 0,0:38:46.26,0:38:48.58,译文字幕,,0,0,0,,她埋在山谷的墓园里\N{\r原文字幕}She's buried in the cemetery in the valley.
+Dialogue: 0,0:38:49.00,0:38:51.80,译文字幕,,0,0,0,,克斯提经常去她的坟墓 打扫得干净体面\N{\r原文字幕}Kosti visits her grave all the time and keeps it beautiful.
+Dialogue: 0,0:38:52.24,0:38:55.85,译文字幕,,0,0,0,,现在他被抓了 以后就别想出狱了\N{\r原文字幕}Now they'll arrest him and he'll never get out of prison.
+Dialogue: 0,0:39:16.84,0:39:18.68,译文字幕,,0,0,0,,你去哪里了\N{\r原文字幕}Where have you been?
+Dialogue: 0,0:39:19.71,0:39:21.65,译文字幕,,0,0,0,,我早上告诉你\N{\r原文字幕}I'll tell you in the morning.
+Dialogue: 0,0:39:22.52,0:39:24.00,译文字幕,,0,0,0,,你去哪里了\N{\r原文字幕}Where have you been?
+Dialogue: 0,0:39:24.84,0:39:27.85,译文字幕,,0,0,0,,他们早上会告诉你的\N{\r原文字幕}They'll tell you... in the morning.
+Dialogue: 0,0:39:31.16,0:39:34.36,译文字幕,,0,0,0,,什么样的警察局早上九点才开门\N{\r原文字幕}What sort of police station opens at nine o'clock in the morning?
+Dialogue: 0,0:39:46.94,0:39:48.48,译文字幕,,0,0,0,,谢谢\N{\r原文字幕}Thank you.
+Dialogue: 0,0:40:13.89,0:40:17.35,译文字幕,,0,0,0,,你先回家 我待会再跟你说\N{\r原文字幕}You go home. I'll speak to you later.
+Dialogue: 0,0:40:20.18,0:40:21.85,译文字幕,,0,0,0,,莱斯利\N{\r原文字幕}Leslie.
+Dialogue: 0,0:40:37.26,0:40:39.23,译文字幕,,0,0,0,,请放了克斯提吧\N{\r原文字幕}Please release Kosti.
+Dialogue: 0,0:40:39.50,0:40:41.74,译文字幕,,0,0,0,,他必须得回到岛上\N{\r原文字幕}He must go back to the island.
+Dialogue: 0,0:40:41.77,0:40:44.00,译文字幕,,0,0,0,,他只是想帮我儿子\N{\r原文字幕}He was just trying to help my son.
+Dialogue: 0,0:40:44.47,0:40:46.02,译文字幕,,0,0,0,,如果他再陷入什么麻烦\N{\r原文字幕}If he gets in any more trouble
+Dialogue: 0,0:40:46.04,0:40:47.32,译文字幕,,0,0,0,,他们会把他关上好几年的\N{\r原文字幕}they'll lock him away for years.
+Dialogue: 0,0:40:47.34,0:40:49.80,译文字幕,,0,0,0,,你知道这里的规矩\N{\r原文字幕}You understand the system. Hooray.
+Dialogue: 0,0:40:50.11,0:40:51.66,译文字幕,,0,0,0,,德雷尔小姐\N{\r原文字幕}Miss Durrells?
+Dialogue: 0,0:40:52.25,0:40:54.84,译文字幕,,0,0,0,,德雷尔小姐 我听说了事情的经过\N{\r原文字幕}Miss Durrells, I heard what happened.
+Dialogue: 0,0:40:54.88,0:40:56.65,译文字幕,,0,0,0,,我无法压抑我的愤怒\N{\r原文字幕}I am beside myself with outrage.
+Dialogue: 0,0:40:57.15,0:40:58.16,译文字幕,,0,0,0,,哪个比较重要...\N{\r原文字幕}Which is your priority ...
+Dialogue: 0,0:40:58.16,0:40:59.51,译文字幕,,0,0,0,,你的顽皮儿子\N{\r原文字幕}your naughty son
+Dialogue: 0,0:40:59.53,0:41:01.44,译文字幕,,0,0,0,,还是那个被不公平逮捕的杀妻犯\N{\r原文字幕}or the unjustly arrested wife-murderer?
+Dialogue: 0,0:41:01.47,0:41:03.09,译文字幕,,0,0,0,,他们已经把莱斯利放了\N{\r原文字幕}They have already let Leslie go.
+Dialogue: 0,0:41:03.31,0:41:05.94,译文字幕,,0,0,0,,斯皮罗斯 请别对任何人大吼大叫的\N{\r原文字幕}And, Spiro, please don't shout at anyone,
+Dialogue: 0,0:41:05.96,0:41:08.03,译文字幕,,0,0,0,,这只会让克斯提的处境更糟\N{\r原文字幕}it'll make things worse for Kosti.
+Dialogue: 0,0:41:18.46,0:41:20.62,译文字幕,,0,0,0,,德雷尔小姐是英国人\N{\r原文字幕}Miss Durrells is English.
+Dialogue: 0,0:41:24.08,0:41:26.26,译文字幕,,0,0,0,,他们非常值得信任\N{\r原文字幕}They are completely trustworthy.
+Dialogue: 0,0:41:26.28,0:41:28.27,译文字幕,,0,0,0,,非常值得信任\N{\r原文字幕}Completely trustworthy.
+Dialogue: 0,0:41:32.77,0:41:36.14,译文字幕,,0,0,0,,美丽又诱人的金鱼...\N{\r原文字幕}Beautiful tempting goldfish...
+Dialogue: 0,0:41:36.95,0:41:39.38,译文字幕,,0,0,0,,当然 他们肯定会归还的\N{\r原文字幕}which, of course, they will return.
+Dialogue: 0,0:41:41.43,0:41:43.07,译文字幕,,0,0,0,,好\N{\r原文字幕}Very well.
+Dialogue: 0,0:41:43.49,0:41:46.05,译文字幕,,0,0,0,,- 我会放了他 - 那就好\N{\r原文字幕}- I will let him go. - All right.
+Dialogue: 0,0:41:46.27,0:41:48.09,译文字幕,,0,0,0,,放了那囚犯\N{\r原文字幕}Release the prisoner.
+Dialogue: 0,0:41:54.78,0:41:57.21,译文字幕,,0,0,0,,晚一点 还有手续要办\N{\r原文字幕}Later. There is paperwork.
+Dialogue: 0,0:41:57.23,0:41:58.05,译文字幕,,0,0,0,,晚一点\N{\r原文字幕}Later?
+Dialogue: 0,0:42:02.25,0:42:02.81,译文字幕,,0,0,0,,晚一点\N{\r原文字幕}Later.
+Dialogue: 0,0:42:02.84,0:42:04.86,译文字幕,,0,0,0,,晚一点 以后你要是想叫出租车\N{\r原文字幕}Later! You ever want a taxi,
+Dialogue: 0,0:42:04.88,0:42:06.62,译文字幕,,0,0,0,,我保证你会"晚一点"才叫得到\N{\r原文字幕}I'll make sure you get it later.
+Dialogue: 0,0:42:24.36,0:42:27.93,译文字幕,,0,0,0,,我们只需要去归还金鱼\N{\r原文字幕}So, we just need to go and give the goldfish back...
+Dialogue: 0,0:42:28.86,0:42:30.60,译文字幕,,0,0,0,,还有那份警局档案\N{\r原文字幕}and return the police file.
+Dialogue: 0,0:42:31.02,0:42:33.99,译文字幕,,0,0,0,,母亲非常担心 所以我翻译了它\N{\r原文字幕}Mother was getting really anxious so I translated it
+Dialogue: 0,0:42:34.01,0:42:36.49,译文字幕,,0,0,0,,但发现不是同一个克斯提\N{\r原文字幕}and it turns out I got the wrong Kosti.
+Dialogue: 0,0:42:37.00,0:42:40.55,译文字幕,,0,0,0,,挺容易的 但这是一份很可怕的档案\N{\r原文字幕}You know, easily done. It's a pretty gruesome file, actually,
+Dialogue: 0,0:42:40.59,0:42:41.71,译文字幕,,0,0,0,,我永远也当不了警察\N{\r原文字幕}I could never be a policeman.
+Dialogue: 0,0:42:41.71,0:42:43.55,译文字幕,,0,0,0,,我觉得你妈妈想走了\N{\r原文字幕}I think your mother wants to go.
+Dialogue: 0,0:42:56.17,0:42:59.16,译文字幕,,0,0,0,,你好 我们想见见伯爵夫人\N{\r原文字幕}Hello. We're here to see the countess.
+Dialogue: 0,0:43:05.76,0:43:08.39,译文字幕,,0,0,0,,我们把金鱼放下就逃吧\N{\r原文字幕}Let's leave the goldfish and make a run for it.
+Dialogue: 0,0:43:08.53,0:43:11.81,译文字幕,,0,0,0,,这不是金鱼的问题 这事关诚信\N{\r原文字幕}It's not about fish, it's about honesty.
+Dialogue: 0,0:43:11.98,0:43:13.96,译文字幕,,0,0,0,,除了对不起和谢谢\N{\r原文字幕}Don't say anything except
+Dialogue: 0,0:43:13.99,0:43:16.11,译文字幕,,0,0,0,,什么也别说 然后我们就走\N{\r原文字幕}sorry and thank you, and then we'll leave.
+Dialogue: 0,0:43:30.74,0:43:33.14,译文字幕,,0,0,0,,拉里是伯恩茅斯最差的地产经纪人\N{\r原文字幕}Larry was the worst estate agent in Bournemouth.
+Dialogue: 0,0:43:33.17,0:43:36.09,译文字幕,,0,0,0,,他得过一个奖 但奖杯太重了没办法带到这里\N{\r原文字幕}He won a prize but it was too heavy to carry here.
+Dialogue: 0,0:43:36.11,0:43:38.79,译文字幕,,0,0,0,,莱斯利痴迷于枪 差点就射中了我们的邮差\N{\r原文字幕}Leslie was gun-mad and nearly shot our postman.
+Dialogue: 0,0:43:38.82,0:43:41.32,译文字幕,,0,0,0,,我还好 但是格里只对那些\N{\r原文字幕}I was fine, but Gerry here was only interested
+Dialogue: 0,0:43:41.35,0:43:43.33,译文字幕,,0,0,0,,四条腿或者有鳞片的东西感兴趣\N{\r原文字幕}in anything with four legs or scales,
+Dialogue: 0,0:43:43.36,0:43:44.31,译文字幕,,0,0,0,,所以才来偷金鱼\N{\r原文字幕}hence the goldfish.
+Dialogue: 0,0:43:44.34,0:43:46.57,译文字幕,,0,0,0,,我母亲很显然喝太多了\N{\r原文字幕}Mother was drinking too much, apparently.
+Dialogue: 0,0:43:46.58,0:43:48.88,译文字幕,,0,0,0,,所以才把我们带到科孚\N{\r原文字幕}So that's why she brought us all to Corfu.
+Dialogue: 0,0:43:50.32,0:43:54.95,译文字幕,,0,0,0,,- 说说你自己吧 - 请原谅我女儿\N{\r原文字幕}- But tell us about yourself. - I must apologise for my daughter.
+Dialogue: 0,0:43:57.14,0:43:59.80,译文字幕,,0,0,0,,你就像一缕清风\N{\r原文字幕}Well, you're a breath of fresh air.
+Dialogue: 0,0:44:00.24,0:44:02.20,译文字幕,,0,0,0,,过奖了\N{\r原文字幕}Oh, you're so sweet.
+Dialogue: 0,0:44:02.88,0:44:05.44,译文字幕,,0,0,0,,丹尼斯绞尽脑汁来逗我开心\N{\r原文字幕}Dennis tries his best to entertain me
+Dialogue: 0,0:44:05.82,0:44:09.29,译文字幕,,0,0,0,,但好久前他已经没有办法了\N{\r原文字幕}but he ran out of ideas some time ago.
+Dialogue: 0,0:44:10.31,0:44:13.72,译文字幕,,0,0,0,,- 有人觉得我有点笨 - 我也是\N{\r原文字幕}- I'm told I can be a bit dim. - Me too.
+Dialogue: 0,0:44:32.73,0:44:36.12,译文字幕,,0,0,0,,- 西奥 - 你好呀 格里\N{\r原文字幕}- Theo! - Hello, Gerry!
+Dialogue: 0,0:44:36.14,0:44:39.04,译文字幕,,0,0,0,,- 你手里拿着什么 - 伯爵夫人送的礼物\N{\r原文字幕}- What have you got there? - A gift from the countess.
+Dialogue: 0,0:44:39.06,0:44:42.78,译文字幕,,0,0,0,,- 旅途怎么样 - 会议很有趣\N{\r原文字幕}- How was your trip? - Oh, yes, it was a fascinating conference.
+Dialogue: 0,0:44:42.80,0:44:44.98,译文字幕,,0,0,0,,一个瑞士的代表认为\N{\r原文字幕}A Swiss delegate tried to argue
+Dialogue: 0,0:44:45.01,0:44:47.75,译文字幕,,0,0,0,,软体动物是环节动物的后裔\N{\r原文字幕}that molluscs were descended from annelids,
+Dialogue: 0,0:44:47.78,0:44:49.49,译文字幕,,0,0,0,,但有些人认为正好相反\N{\r原文字幕}rather than the other way round,
+Dialogue: 0,0:44:49.51,0:44:51.89,译文字幕,,0,0,0,,大家差点就打起来了\N{\r原文字幕}which almost led to fisticuffs.
+Dialogue: 0,0:44:52.78,0:44:54.77,译文字幕,,0,0,0,,我可以想象得出来\N{\r原文字幕}I can imagine.
+Dialogue: 0,0:44:55.49,0:44:57.37,译文字幕,,0,0,0,,我们很想你 西奥\N{\r原文字幕}Oh, we've missed you, Theo.
+Dialogue: 0,0:44:57.68,0:45:00.00,译文字幕,,0,0,0,,马戈 格里 能给我们泡杯茶吗\N{\r原文字幕}Margo, Gerry, will you go and make us tea?
+Dialogue: 0,0:45:00.05,0:45:01.66,译文字幕,,0,0,0,,西奥 我有工作了\N{\r原文字幕}Oh, Theo, I've got a job,
+Dialogue: 0,0:45:01.66,0:45:04.73,译文字幕,,0,0,0,,当马夫罗达琪伯爵夫人的女伴\N{\r原文字幕}as lady's companion to Countess Mavrodaki.
+Dialogue: 0,0:45:08.33,0:45:11.41,译文字幕,,0,0,0,,我觉得马戈这份工作能稳定下来\N{\r原文字幕}Yes, I think Margo is going to be a survivor.
+Dialogue: 0,0:45:12.72,0:45:13.91,译文字幕,,0,0,0,,西奥 你消息很灵通\N{\r原文字幕}Theo, you know everything.
+Dialogue: 0,0:45:13.91,0:45:16.60,译文字幕,,0,0,0,,你有听说过一桩案子 一桩谋杀案\N{\r原文字幕}Have you heard of a case, a murder case,
+Dialogue: 0,0:45:16.63,0:45:19.43,译文字幕,,0,0,0,,涉案的是克斯提·帕帕多珀洛普洛斯\N{\r原文字幕}involving a Kosti Papadopolopoulos?
+Dialogue: 0,0:45:19.45,0:45:21.10,译文字幕,,0,0,0,,- 潘欧帕罗斯吗 - 潘欧帕罗斯\N{\r原文字幕}- Panoupolos? - Panoupolos.
+Dialogue: 0,0:45:21.12,0:45:24.07,译文字幕,,0,0,0,,我记得的是他妻子有外遇\N{\r原文字幕}As I remember it, his wife had an affair.
+Dialogue: 0,0:45:24.09,0:45:28.56,译文字幕,,0,0,0,,克斯提喝了酒 在一阵疯狂和愤怒之下\N{\r原文字幕}Kostis drank and, in a moment of madness and passion,
+Dialogue: 0,0:45:28.59,0:45:31.59,译文字幕,,0,0,0,,他把他妻子打倒在地 撞到头部然后死了\N{\r原文字幕}he knocked her over, she hit her head and died.
+Dialogue: 0,0:45:33.89,0:45:35.83,译文字幕,,0,0,0,,这才是我们的克斯提\N{\r原文字幕}So that's our Kosti.
+Dialogue: 0,0:45:37.30,0:45:39.03,译文字幕,,0,0,0,,谢谢你 西奥\N{\r原文字幕}Thank you, Theo.
+Dialogue: 0,0:45:40.13,0:45:42.97,译文字幕,,0,0,0,,西奥 我完成了我的第一部大作\N{\r原文字幕}Theo. I've finished my first major work.
+Dialogue: 0,0:45:42.99,0:45:44.00,译文字幕,,0,0,0,,太好了\N{\r原文字幕}Excellent!
+Dialogue: 0,0:45:44.39,0:45:46.79,译文字幕,,0,0,0,,这是一部天才之作吗 当然是的\N{\r原文字幕}Is it a work of genius? Yes, it is.
+Dialogue: 0,0:45:47.00,0:45:48.50,译文字幕,,0,0,0,,- 谁想听听我的作品 - 不\N{\r原文字幕}- Who wants to hear my writing? - No,
+Dialogue: 0,0:45:48.50,0:45:49.68,译文字幕,,0,0,0,,- 这太没礼貌了 - 我选择死亡\N{\r原文字幕}- too rude. - I'd rather die.
+Dialogue: 0,0:45:49.70,0:45:51.21,译文字幕,,0,0,0,,太好了 西奥想听\N{\r原文字幕}Good, Theo does.
+Dialogue: 0,0:45:52.60,0:45:54.86,译文字幕,,0,0,0,,高贵的紫色映在黄昏的天空\N{\r原文字幕}Proudly purple in the gloaming,
+Dialogue: 0,0:45:54.88,0:45:57.92,译文字幕,,0,0,0,,突如其来一阵刺痛的悲伤\N{\r原文字幕}a sharp displacement of sad air
+Dialogue: 0,0:45:57.95,0:45:59.88,译文字幕,,0,0,0,,他隐隐感觉到\N{\r原文字幕}made him aware obliquely of
+Dialogue: 0,0:45:59.91,0:46:03.02,译文字幕,,0,0,0,,左侧的运动 随着地球在持续地...\N{\r原文字幕}movement to his left flank as the Earth continued...
+Dialogue: 0,0:46:15.59,0:46:17.54,译文字幕,,0,0,0,,你妻子的事情我很抱歉\N{\r原文字幕}I'm sorry about your wife.
+Dialogue: 0,0:46:19.10,0:46:23.70,译文字幕,,0,0,0,,我知道那是个意外 很抱歉我没有相信你\N{\r原文字幕}I know it was an accident and... I'm sorry I didn't trust you.
+Dialogue: 0,0:46:27.49,0:46:29.24,译文字幕,,0,0,0,,我仍然深爱她\N{\r原文字幕}I love her still.
+Dialogue: 0,0:46:32.20,0:46:35.64,译文字幕,,0,0,0,,我心里每时每刻都在流泪\N{\r原文字幕}Inside I cry... all the time,
+Dialogue: 0,0:46:36.61,0:46:38.18,译文字幕,,0,0,0,,泪水像河流一样\N{\r原文字幕}like a river.
+Dialogue: 0,0:46:44.08,0:46:46.51,译文字幕,,0,0,0,,我也曾有丈夫\N{\r原文字幕}I had a husband and er...
+Dialogue: 0,0:46:47.56,0:46:50.92,译文字幕,,0,0,0,,他也死了 我明白你的感受\N{\r原文字幕}and he died too, so I understand how you feel.
+Dialogue: 0,0:46:53.21,0:46:55.04,译文字幕,,0,0,0,,我没有杀他 但是...\N{\r原文字幕}I mean, I didn't kill him but...
+Dialogue: 0,0:46:59.28,0:47:00.86,译文字幕,,0,0,0,,抱歉\N{\r原文字幕}Sorry.
